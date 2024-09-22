@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_boton",
+  "%Name":"oDoor",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_boton",
+  "name":"oDoor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"grupo1",
+    "path":"folders/Objetos/grupo1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Boton",
-    "path":"sprites/Boton/Boton.yy",
+    "name":"Door",
+    "path":"sprites/Door/Door.yy",
   },
   "spriteMaskId":null,
   "visible":true,

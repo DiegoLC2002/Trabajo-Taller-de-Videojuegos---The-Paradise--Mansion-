@@ -9,8 +9,8 @@
   "name":"oCamera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Objetos Invisibles",
+    "path":"folders/Objetos/Objetos Invisibles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
