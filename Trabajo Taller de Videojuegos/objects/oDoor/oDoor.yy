@@ -3,14 +3,15 @@
   "%Name":"oDoor",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"oDoor",
   "overriddenProperties":[],
   "parent":{
-    "name":"grupo1",
-    "path":"folders/Objetos/grupo1.yy",
+    "name":"Objetos Referencias",
+    "path":"folders/Objetos/Objetos Referencias.yy",
   },
   "parentObjectId":null,
   "persistent":false,
