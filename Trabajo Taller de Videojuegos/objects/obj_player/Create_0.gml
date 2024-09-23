@@ -1,1 +1,1 @@
-vel_movimiento = 3;
+vel_movimiento = 4;
