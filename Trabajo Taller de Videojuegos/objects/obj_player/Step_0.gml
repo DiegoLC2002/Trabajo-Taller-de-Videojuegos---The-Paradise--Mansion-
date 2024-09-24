@@ -14,7 +14,7 @@ if(btn_derecha)
 	
 	if(btn_correr)
 	{
-		x += vel_movimiento * 2;
+		x += vel_movimiento * 1.5;
 	}
 	
 }
@@ -25,7 +25,7 @@ else if(btn_izquierda)
 	
 	if(btn_correr)
 	{
-		x -= vel_movimiento * 2;
+		x -= vel_movimiento * 1.5;
 	}
 }
 else if(btn_arriba)
