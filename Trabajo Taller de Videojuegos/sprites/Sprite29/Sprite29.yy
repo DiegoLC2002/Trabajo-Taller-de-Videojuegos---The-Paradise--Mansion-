@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Apartado visual",
-    "path":"folders/Sprites/Apartado visual.yy",
+    "path":"folders/Sprites (por seleccionar)/Apartado visual.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

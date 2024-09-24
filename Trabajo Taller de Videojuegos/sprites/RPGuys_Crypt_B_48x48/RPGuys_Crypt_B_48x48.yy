@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"catacumbas",
-    "path":"folders/Sprites/catacumbas.yy",
+    "path":"folders/Sprites (por seleccionar)/catacumbas.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

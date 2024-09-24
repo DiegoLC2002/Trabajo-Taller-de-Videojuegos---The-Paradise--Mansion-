@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Pack para sacar ideas",
-    "path":"folders/Sprites/Pack para sacar ideas.yy",
+    "path":"folders/Sprites (por seleccionar)/Pack para sacar ideas.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

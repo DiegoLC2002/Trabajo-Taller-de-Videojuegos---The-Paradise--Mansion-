@@ -51,3 +51,13 @@ else if(btn_abajo)
 
 #endregion
 
+#region Mecanica de pacman con hojas de libro
+
+if( instance_number(obj_bookpage) == 0 )
+{
+	//room_goto_next();  //ir a la siguiente room automatico
+	//room_goto(Room2); //ir a la room especificada
+	
+}
+
+#endregion
