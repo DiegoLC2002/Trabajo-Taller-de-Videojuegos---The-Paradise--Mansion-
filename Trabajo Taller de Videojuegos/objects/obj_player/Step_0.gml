@@ -14,40 +14,49 @@ if(btn_derecha)
 	
 	if(btn_correr)
 	{
-		x += vel_movimiento * 1.5;
+		x += vel_movimiento *.5;
 	}
-	
 }
-else if(btn_izquierda)
+
+
+if(btn_izquierda)
 {
 	x -= vel_movimiento;
 	sprite_index = spr_player_left;
 	
 	if(btn_correr)
 	{
-		x -= vel_movimiento * 1.5;
+		x -= vel_movimiento *.5;
 	}
 }
-else if(btn_arriba)
+
+ if(btn_arriba)
 {
 	y -= vel_movimiento;
 	sprite_index = spr_player_up;
 	
+	
 	if(btn_correr)
 	{
-		y -= vel_movimiento * 2;
+		y -= vel_movimiento *.5;
 	}
-}
-else if(btn_abajo)
+	
+	
+} 
+
+ if(btn_abajo)
 {
 	y += vel_movimiento;
 	sprite_index = spr_player_down;
 	
 	if(btn_correr)
 	{
-		y += vel_movimiento * 2;
+		y += vel_movimiento *.5;
 	}
+
 }
+
+
 
 #endregion
 
