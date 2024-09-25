@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":{
-    "name":"SpriteCamino1",
-    "path":"sprites/SpriteCamino1/SpriteCamino1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":false,
 }

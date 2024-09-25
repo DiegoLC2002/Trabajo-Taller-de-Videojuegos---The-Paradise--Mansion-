@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Pack para sacar ideas",
-    "path":"folders/Sprites (por seleccionar)/Pack para sacar ideas.yy",
+    "name":"Pack_TileSet",
+    "path":"folders/Sprites/Pack_TileSet.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

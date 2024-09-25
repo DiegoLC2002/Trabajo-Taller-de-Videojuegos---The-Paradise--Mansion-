@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"catacumbas",
-    "path":"folders/Sprites (por seleccionar)/catacumbas.yy",
+    "name":"Pack_TileSet",
+    "path":"folders/Sprites/Pack_TileSet.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
