@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"spr_mansion",
-    "path":"folders/Sprites/spr_mansion.yy",
+    "name":"spr_Hall",
+    "path":"folders/Sprites/spr_mansion/spr_Hall.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

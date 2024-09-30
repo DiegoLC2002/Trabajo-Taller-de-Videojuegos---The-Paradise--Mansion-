@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_mansion_wall",
+  "%Name":"spr_kitchen_wall",
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":0,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"3e3bfef9-8a67-400b-b587-6e88f553b264","blendMode":0,"displayName":"default","isLocked":false,"name":"3e3bfef9-8a67-400b-b587-6e88f553b264","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_mansion_wall",
+  "name":"spr_kitchen_wall",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"spr_Hall",
-    "path":"folders/Sprites/spr_mansion/spr_Hall.yy",
+    "name":"spr_Kitchen",
+    "path":"folders/Sprites/spr_mansion/spr_Kitchen.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_mansion_wall",
+    "%Name":"spr_kitchen_wall",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_mansion_wall",
+    "name":"spr_kitchen_wall",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"211653f9-239a-4b7f-b202-25572e77e18c","path":"sprites/spr_mansion_wall/spr_mansion_wall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"211653f9-239a-4b7f-b202-25572e77e18c","path":"sprites/spr_kitchen_wall/spr_kitchen_wall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"b7aab6b4-573b-4120-82eb-5b4f428b8e67","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
