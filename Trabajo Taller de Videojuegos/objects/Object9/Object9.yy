@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_box",
-  "eventList":[],
+  "%Name":"Object9",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_box",
+  "name":"Object9",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_collisions",
-    "path":"folders/Objetos/Objetos Referencias/obj_collisions.yy",
+    "name":"obj_menus",
+    "path":"folders/Objetos/obj_menus.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"_boxes_32x32",
-    "path":"sprites/_boxes_32x32/_boxes_32x32.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

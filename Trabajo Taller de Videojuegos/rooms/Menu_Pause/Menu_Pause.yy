@@ -1,14 +1,14 @@
 {
   "$GMRoom":"",
-  "%Name":"Room0_Menu_1",
+  "%Name":"Menu_Pause",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_58154365_1","path":"rooms/Room0_Menu_1/Room0_Menu_1.yy",},
-    {"name":"inst_BF72CF8","path":"rooms/Room0_Menu_1/Room0_Menu_1.yy",},
-    {"name":"inst_558855BA","path":"rooms/Room0_Menu_1/Room0_Menu_1.yy",},
+    {"name":"inst_58154365_1","path":"rooms/Menu_Pause/Menu_Pause.yy",},
+    {"name":"inst_BF72CF8","path":"rooms/Menu_Pause/Menu_Pause.yy",},
+    {"name":"inst_558855BA","path":"rooms/Menu_Pause/Menu_Pause.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -22,7 +22,7 @@
       ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Room0_Menu_1",
+  "name":"Menu_Pause",
   "parent":{
     "name":"Salas",
     "path":"folders/Salas.yy",

@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"obj_collisions",
-    "path":"folders/Objetos/obj_collisions.yy",
+    "path":"folders/Objetos/Objetos Referencias/obj_collisions.yy",
   },
   "parentObjectId":null,
   "persistent":false,
