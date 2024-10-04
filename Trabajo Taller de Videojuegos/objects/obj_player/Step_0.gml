@@ -9,49 +9,59 @@ var btn_correr = keyboard_check(vk_space);
 
 if(btn_derecha) 
 {
-	x += vel_movimiento;
+	if(place_free(x+vel_movimiento,y)){
+		x += vel_movimiento;
+	}
+	
 	sprite_index = spr_player_right;
 	
 	if(btn_correr)
 	{
-		x += vel_movimiento *.5;
+		x += vel_movimiento * vel_correr;
 	}
 }
 
 
 if(btn_izquierda)
 {
-	x -= vel_movimiento;
+	if(place_free(x-vel_movimiento,y)){
+		x -= vel_movimiento;
+	}
+	
 	sprite_index = spr_player_left;
 	
 	if(btn_correr)
 	{
-		x -= vel_movimiento *.5;
+		x -= vel_movimiento * vel_correr;
 	}
 }
 
  if(btn_arriba)
 {
-	y -= vel_movimiento;
-	sprite_index = spr_player_up;
+	if(place_free(x,y-vel_movimiento)){
+		y -= vel_movimiento;
+	}
 	
+	sprite_index = spr_player_up;
 	
 	if(btn_correr)
 	{
-		y -= vel_movimiento *.5;
+		y -= vel_movimiento * vel_correr;
 	}
-	
 	
 } 
 
  if(btn_abajo)
 {
-	y += vel_movimiento;
+	if(place_free(x,y+vel_movimiento)){
+		y += vel_movimiento;
+	}
+	
 	sprite_index = spr_player_down;
 	
 	if(btn_correr)
 	{
-		y += vel_movimiento *.5;
+		y += vel_movimiento * vel_correr;
 	}
 
 }
