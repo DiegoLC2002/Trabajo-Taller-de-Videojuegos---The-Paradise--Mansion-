@@ -32,8 +32,8 @@
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Pack_TileSet","folderPath":"folders/Sprites/Pack_TileSet.yy","name":"Pack_TileSet","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_mansion","folderPath":"folders/Sprites/spr_mansion.yy","name":"spr_mansion","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"spr_damage","folderPath":"folders/Sprites/spr_mansion/spr_damage.yy","name":"spr_damage","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_Bathrom","folderPath":"folders/Sprites/spr_mansion/spr_Bathrom.yy","name":"spr_Bathrom","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"spr_damage","folderPath":"folders/Sprites/spr_mansion/spr_damage.yy","name":"spr_damage","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_Hall","folderPath":"folders/Sprites/spr_mansion/spr_Hall.yy","name":"spr_Hall","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_decorations","folderPath":"folders/Sprites/spr_mansion/spr_Hall/spr_decorations.yy","name":"spr_decorations","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_Kitchen","folderPath":"folders/Sprites/spr_mansion/spr_Kitchen.yy","name":"spr_Kitchen","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -46,7 +46,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"Prototipo",
   "resources":[
