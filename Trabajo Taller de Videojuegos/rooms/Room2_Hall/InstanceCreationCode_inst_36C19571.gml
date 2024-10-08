@@ -1,3 +1,3 @@
 targetRoom = room1_Outside;
-targetX = 382;
-targetY = 283;
+targetX = 319;
+targetY = 254;

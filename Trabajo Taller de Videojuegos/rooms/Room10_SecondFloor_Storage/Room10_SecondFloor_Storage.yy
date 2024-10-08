@@ -1,5 +1,5 @@
 {
-  "$GMRoom":"v1",
+  "$GMRoom":"",
   "%Name":"Room10_SecondFloor_Storage",
   "creationCodeFile":"",
   "inheritCode":false,
