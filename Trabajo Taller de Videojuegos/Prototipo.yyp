@@ -69,7 +69,6 @@
     {"id":{"name":"oFade","path":"objects/oFade/oFade.yy",},},
     {"id":{"name":"Menu_Pause","path":"rooms/Menu_Pause/Menu_Pause.yy",},},
     {"id":{"name":"Room0_Menu","path":"rooms/Room0_Menu/Room0_Menu.yy",},},
-    {"id":{"name":"room1_Outside","path":"rooms/room1_Outside/room1_Outside.yy",},},
     {"id":{"name":"Room10_SecondFloor_Storage","path":"rooms/Room10_SecondFloor_Storage/Room10_SecondFloor_Storage.yy",},},
     {"id":{"name":"Room11_Office","path":"rooms/Room11_Office/Room11_Office.yy",},},
     {"id":{"name":"Room2_Hall","path":"rooms/Room2_Hall/Room2_Hall.yy",},},
@@ -218,7 +217,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"room1_Outside","path":"rooms/room1_Outside/room1_Outside.yy",},},
     {"roomId":{"name":"Room0_Menu","path":"rooms/Room0_Menu/Room0_Menu.yy",},},
     {"roomId":{"name":"Room2_Hall","path":"rooms/Room2_Hall/Room2_Hall.yy",},},
     {"roomId":{"name":"Menu_Pause","path":"rooms/Menu_Pause/Menu_Pause.yy",},},
