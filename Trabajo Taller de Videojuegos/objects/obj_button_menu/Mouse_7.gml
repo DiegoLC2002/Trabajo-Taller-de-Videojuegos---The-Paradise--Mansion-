@@ -6,7 +6,7 @@ if !press exit;
 if texto == "play"
 
 {
-	room_goto(room1_Outside);
+	room_goto(Room1_Outside);
 }
 if texto == "Reiniciar"
 
