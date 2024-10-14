@@ -1,5 +1,5 @@
 {
-  "$GMTileSet":"",
+  "$GMTileSet":"v1",
   "%Name":"TileSet_Pasto",
   "autoTileSets":[],
   "macroPageTiles":{
@@ -18,17 +18,13 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"forest_night_1",
-    "path":"sprites/forest_night_1/forest_night_1.yy",
+    "name":"spr_outside_grass",
+    "path":"sprites/spr_outside_grass/spr_outside_grass.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",
-  },
-  "tileAnimation":{
-    "FrameData":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,],
-    "SerialiseFrameCount":1,
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
