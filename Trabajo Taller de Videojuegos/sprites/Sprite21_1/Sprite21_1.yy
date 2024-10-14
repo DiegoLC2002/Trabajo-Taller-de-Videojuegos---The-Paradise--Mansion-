@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Prototipo",
-    "path":"Prototipo.yyp",
+    "name":"spr_trash",
+    "path":"folders/Sprites/spr_trash.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
