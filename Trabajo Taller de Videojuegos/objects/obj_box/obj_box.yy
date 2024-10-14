@@ -2,8 +2,7 @@
   "$GMObject":"",
   "%Name":"obj_box",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_box",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"_boxes_32x32",
-    "path":"sprites/_boxes_32x32/_boxes_32x32.yy",
+    "name":"spr_storgeRoom_Box_2",
+    "path":"sprites/spr_storgeRoom_Box_2/spr_storgeRoom_Box_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
