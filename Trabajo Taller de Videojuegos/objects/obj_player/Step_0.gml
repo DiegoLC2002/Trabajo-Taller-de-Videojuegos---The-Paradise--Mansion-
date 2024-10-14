@@ -7,7 +7,7 @@ var btn_arriba = keyboard_check(vk_up);
 var btn_abajo = keyboard_check(vk_down);
 var btn_correr = keyboard_check(vk_space);
 
-if(btn_derecha) 
+if(keyboard_check(vk_right)) 
 {
 	if(place_free(x+vel_movimiento,y)){
 		x += vel_movimiento;
@@ -22,7 +22,7 @@ if(btn_derecha)
 }
 
 
-if(btn_izquierda)
+else if(keyboard_check(vk_left))
 {
 	if(place_free(x-vel_movimiento,y)){
 		x -= vel_movimiento;
@@ -36,7 +36,7 @@ if(btn_izquierda)
 	}
 }
 
- if(btn_arriba)
+else if(keyboard_check(vk_up))
 {
 	if(place_free(x,y-vel_movimiento)){
 		y -= vel_movimiento;
@@ -51,7 +51,7 @@ if(btn_izquierda)
 	
 } 
 
- if(btn_abajo)
+else if(keyboard_check(vk_down))
 {
 	if(place_free(x,y+vel_movimiento)){
 		y += vel_movimiento;
