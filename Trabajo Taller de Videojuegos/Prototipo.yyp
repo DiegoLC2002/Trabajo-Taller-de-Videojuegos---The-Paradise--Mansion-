@@ -230,11 +230,11 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Room3_Library","path":"rooms/Room3_Library/Room3_Library.yy",},},
     {"roomId":{"name":"Room1_Outside","path":"rooms/Room1_Outside/Room1_Outside.yy",},},
     {"roomId":{"name":"Room0_Menu","path":"rooms/Room0_Menu/Room0_Menu.yy",},},
     {"roomId":{"name":"Menu_Pause","path":"rooms/Menu_Pause/Menu_Pause.yy",},},
     {"roomId":{"name":"Room2_Hall","path":"rooms/Room2_Hall/Room2_Hall.yy",},},
-    {"roomId":{"name":"Room3_Library","path":"rooms/Room3_Library/Room3_Library.yy",},},
     {"roomId":{"name":"Room4_Bathom","path":"rooms/Room4_Bathom/Room4_Bathom.yy",},},
     {"roomId":{"name":"Room5_Kitchen","path":"rooms/Room5_Kitchen/Room5_Kitchen.yy",},},
     {"roomId":{"name":"Room7_SecondFloor_right","path":"rooms/Room7_SecondFloor_right/Room7_SecondFloor_right.yy",},},
