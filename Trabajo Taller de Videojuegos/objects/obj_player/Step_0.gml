@@ -11,6 +11,9 @@ if(keyboard_check(vk_right))
 {
 	if(place_free(x+vel_movimiento,y)){
 		x += vel_movimiento;
+		
+		
+		
 	}
 	
 	sprite_index = spr_player_right;

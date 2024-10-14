@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"_boxes_32x32",
-    "path":"sprites/_boxes_32x32/_boxes_32x32.yy",
+    "name":"spr_storgeRoom_Box_2",
+    "path":"sprites/spr_storgeRoom_Box_2/spr_storgeRoom_Box_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

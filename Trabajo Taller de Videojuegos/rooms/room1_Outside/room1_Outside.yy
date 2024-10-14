@@ -16,7 +16,11 @@
     {"name":"inst_3CD790BE","path":"rooms/room1_Outside/room1_Outside.yy",},
     {"name":"inst_159A85BE","path":"rooms/room1_Outside/room1_Outside.yy",},
     {"name":"inst_CF0AF49","path":"rooms/room1_Outside/room1_Outside.yy",},
+<<<<<<< Updated upstream
     {"name":"inst_72B05C70","path":"rooms/room1_Outside/room1_Outside.yy",},
+=======
+    {"name":"inst_8798CBB","path":"rooms/room1_Outside/room1_Outside.yy",},
+>>>>>>> Stashed changes
   ],
   "isDnd":false,
   "layers":[
@@ -31,7 +35,11 @@
         {"$GMRInstance":"","%Name":"inst_3CD790BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3CD790BE","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":15.0,"x":-32.0,"y":368.0,},
         {"$GMRInstance":"","%Name":"inst_159A85BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_159A85BE","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.75,"scaleY":0.25,"x":0.0,"y":1328.0,},
         {"$GMRInstance":"","%Name":"inst_CF0AF49","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_CF0AF49","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":15.0,"x":640.0,"y":368.0,},
+<<<<<<< Updated upstream
         {"$GMRInstance":"","%Name":"inst_72B05C70","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_72B05C70","objectId":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":1040.0,},
+=======
+        {"$GMRInstance":"","%Name":"inst_8798CBB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_8798CBB","objectId":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":304.0,"y":992.0,},
+>>>>>>> Stashed changes
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_31095F2D","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_31095F2D","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.3589743,"scaleY":1.0909091,"spriteId":{"name":"spr_mansion_ext","path":"sprites/spr_mansion_ext/spr_mansion_ext.yy",},"x":320.0,"y":-192.0,},
