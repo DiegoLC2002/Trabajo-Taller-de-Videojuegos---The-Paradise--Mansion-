@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bookpage",
+  "%Name":"obj_soko_floor",
   "eventList":[],
   "managed":true,
-  "name":"obj_bookpage",
+  "name":"obj_soko_floor",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_puzzles",
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_bookpage",
-    "path":"sprites/spr_bookpage/spr_bookpage.yy",
+    "name":"spr_puzzle_floor_1",
+    "path":"sprites/spr_puzzle_floor_1/spr_puzzle_floor_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
