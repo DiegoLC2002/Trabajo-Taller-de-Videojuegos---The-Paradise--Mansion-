@@ -1,14 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_box",
+  "%Name":"obj_kitchen_switch_2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_soko_floor","path":"objects/obj_soko_floor/obj_soko_floor.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_soko_floor_2","path":"objects/obj_soko_floor_2/obj_soko_floor_2.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_box",
+  "name":"obj_kitchen_switch_2",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_puzzles",
@@ -33,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_storgeRoom_Box_2",
-    "path":"sprites/spr_storgeRoom_Box_2/spr_storgeRoom_Box_2.yy",
+    "name":"Sprite81",
+    "path":"sprites/Sprite81/Sprite81.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
