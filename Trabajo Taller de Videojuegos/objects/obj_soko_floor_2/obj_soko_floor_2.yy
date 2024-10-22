@@ -6,10 +6,13 @@
   "name":"obj_soko_floor_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_puzzles",
-    "path":"folders/Objetos/obj_puzzles.yy",
+    "name":"obj_sokoban",
+    "path":"folders/Objetos/obj_puzzles/obj_sokoban.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_box",
+    "path":"objects/obj_box/obj_box.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

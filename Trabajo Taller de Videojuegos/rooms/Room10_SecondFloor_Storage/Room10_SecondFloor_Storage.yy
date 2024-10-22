@@ -153,6 +153,7 @@
     {"name":"inst_7BEAB77F","path":"rooms/Room10_SecondFloor_Storage/Room10_SecondFloor_Storage.yy",},
     {"name":"inst_518B327C","path":"rooms/Room10_SecondFloor_Storage/Room10_SecondFloor_Storage.yy",},
     {"name":"inst_15BA72DD","path":"rooms/Room10_SecondFloor_Storage/Room10_SecondFloor_Storage.yy",},
+    {"name":"inst_79BABB06","path":"rooms/Room10_SecondFloor_Storage/Room10_SecondFloor_Storage.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -304,6 +305,7 @@
         {"$GMRInstance":"v1","%Name":"inst_7BEAB77F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7BEAB77F","objectId":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":928.0,},
         {"$GMRInstance":"v1","%Name":"inst_518B327C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_518B327C","objectId":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":192.0,},
         {"$GMRInstance":"v1","%Name":"inst_15BA72DD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_15BA72DD","objectId":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":704.0,},
+        {"$GMRInstance":"v1","%Name":"inst_79BABB06","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_79BABB06","objectId":{"name":"obj_key_office","path":"objects/obj_key_office/obj_key_office.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":1248.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_2E7C47B4","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2E7C47B4","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_stotageRoom_floor","path":"sprites/spr_stotageRoom_floor/spr_stotageRoom_floor.yy",},"x":352.0,"y":0.0,},

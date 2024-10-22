@@ -4,17 +4,19 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_soko_floor","path":"objects/obj_soko_floor/obj_soko_floor.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_soko_floor_2","path":"objects/obj_soko_floor_2/obj_soko_floor_2.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_box",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_puzzles",
-    "path":"folders/Objetos/obj_puzzles.yy",
+    "name":"obj_sokoban",
+    "path":"folders/Objetos/obj_puzzles/obj_sokoban.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_soko_floor",
+    "path":"objects/obj_soko_floor/obj_soko_floor.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

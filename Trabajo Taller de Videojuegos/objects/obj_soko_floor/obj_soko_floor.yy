@@ -6,8 +6,8 @@
   "name":"obj_soko_floor",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_puzzles",
-    "path":"folders/Objetos/obj_puzzles.yy",
+    "name":"obj_sokoban",
+    "path":"folders/Objetos/obj_puzzles/obj_sokoban.yy",
   },
   "parentObjectId":null,
   "persistent":false,

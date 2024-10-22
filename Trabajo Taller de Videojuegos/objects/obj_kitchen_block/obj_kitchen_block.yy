@@ -6,8 +6,8 @@
   "name":"obj_kitchen_block",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_puzzles",
-    "path":"folders/Objetos/obj_puzzles.yy",
+    "name":"obj_pacman",
+    "path":"folders/Objetos/obj_puzzles/obj_pacman.yy",
   },
   "parentObjectId":null,
   "persistent":false,

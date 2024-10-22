@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"spr_storageRoom",
-    "path":"folders/Sprites/spr_mansion/spr_storageRoom.yy",
+    "name":"spr_puzzles",
+    "path":"folders/Sprites/spr_puzzles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
