@@ -5,12 +5,12 @@ function scr_ChangeSpr(_x,_y){
 	var dy = _y - y;
 	
 	if (dx > 0) {
-		//sprite_index = Player___Run_1;
+		sprite_index = spr_enemy_right;
 	} else if (dx < 0) {
-		//sprite_index = Player___Run_1;
+		sprite_index = spr_enemy_left;
 	} else if (dy > 0) {
-		//sprite_index = Player___Run_1;
+		sprite_index = spr_enemy_down;
 	} else if (dy < 0) {
-		//sprite_index = Player___Run_1;;
+		sprite_index = spr_enemy_up;
 	}
 }

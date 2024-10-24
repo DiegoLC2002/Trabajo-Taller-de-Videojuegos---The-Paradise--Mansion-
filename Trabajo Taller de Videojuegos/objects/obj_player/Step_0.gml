@@ -7,13 +7,11 @@ var btn_arriba = keyboard_check(vk_up);
 var btn_abajo = keyboard_check(vk_down);
 var btn_correr = keyboard_check(vk_space);
 
-if(keyboard_check(vk_right)) 
+if(btn_derecha) 
 {
 	if(place_free(x+vel_movimiento,y)){
 		x += vel_movimiento;
-		
-		
-		
+			
 	}
 	
 	sprite_index = spr_player_right;
@@ -25,7 +23,7 @@ if(keyboard_check(vk_right))
 }
 
 
-else if(keyboard_check(vk_left))
+else if(btn_izquierda)
 {
 	if(place_free(x-vel_movimiento,y)){
 		x -= vel_movimiento;
@@ -39,7 +37,7 @@ else if(keyboard_check(vk_left))
 	}
 }
 
-else if(keyboard_check(vk_up))
+else if(btn_arriba)
 {
 	if(place_free(x,y-vel_movimiento)){
 		y -= vel_movimiento;
@@ -54,7 +52,7 @@ else if(keyboard_check(vk_up))
 	
 } 
 
-else if(keyboard_check(vk_down))
+else if(btn_abajo)
 {
 	if(place_free(x,y+vel_movimiento)){
 		y += vel_movimiento;
@@ -71,14 +69,14 @@ else if(keyboard_check(vk_down))
 
 
 
+
 #endregion
 
-#region Mecanica de pacman con hojas de libro
+#region Liberar la room_office
 
-if( instance_number(obj_bookpage) == 0 )
+if(global.contador_llaves >= 7 )
 {
-	//room_goto_next();  //ir a la siguiente room automatico
-	//room_goto(Room2); //ir a la room especificada
+	//especificar codigo para liberar la oficina
 	
 }
 
