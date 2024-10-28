@@ -1,5 +1,5 @@
 
-vel_movimiento = 1;
+vel_movimiento = 2;
 
 
 alarm[0] = room_speed * 1;

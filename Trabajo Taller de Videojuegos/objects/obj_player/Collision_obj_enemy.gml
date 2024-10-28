@@ -25,6 +25,7 @@
  }else if(room == Room5_Kitchen)
  {
 	obj_Camera.sprite_index = spr_jumpscare_kitchen;
+	audio_play_sound(JumpScare1,1,false);
 	//audio_play_sound(sonidos, 1, false); //(nombre_sonido,prioridad_sonido,bucle)
 	
 	if(reiniciar_room)

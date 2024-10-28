@@ -1,4 +1,4 @@
-if (keyboard_check_pressed(ord("E"))){
+if (keyboard_key_press(ord("E"))){
 var _x = 200;
 var _y = 300;
 

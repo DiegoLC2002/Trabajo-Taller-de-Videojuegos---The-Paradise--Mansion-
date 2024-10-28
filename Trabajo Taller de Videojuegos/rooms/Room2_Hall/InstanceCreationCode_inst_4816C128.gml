@@ -1,3 +1,3 @@
 targetRoom = Room5_Kitchen;
-targetX = 1055;
-targetY = 379;
+targetX = 1088;
+targetY = 352;
