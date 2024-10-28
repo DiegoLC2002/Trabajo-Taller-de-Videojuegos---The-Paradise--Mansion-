@@ -113,6 +113,7 @@
     {"id":{"name":"Enemy_music","path":"sounds/Enemy_music/Enemy_music.yy",},},
     {"id":{"name":"JumpScare1","path":"sounds/JumpScare1/JumpScare1.yy",},},
     {"id":{"name":"Outside","path":"sounds/Outside/Outside.yy",},},
+    {"id":{"name":"Rizz","path":"sounds/Rizz/Rizz.yy",},},
     {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"Stairs","path":"sounds/Stairs/Stairs.yy",},},
     {"id":{"name":"_boxes_32x32","path":"sprites/_boxes_32x32/_boxes_32x32.yy",},},
@@ -281,8 +282,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room2_Hall","path":"rooms/Room2_Hall/Room2_Hall.yy",},},
     {"roomId":{"name":"Room1_Outside","path":"rooms/Room1_Outside/Room1_Outside.yy",},},
+    {"roomId":{"name":"Room2_Hall","path":"rooms/Room2_Hall/Room2_Hall.yy",},},
     {"roomId":{"name":"Room10_SecondFloor_Storage","path":"rooms/Room10_SecondFloor_Storage/Room10_SecondFloor_Storage.yy",},},
     {"roomId":{"name":"Room0_Menu","path":"rooms/Room0_Menu/Room0_Menu.yy",},},
     {"roomId":{"name":"Menu_Pause","path":"rooms/Menu_Pause/Menu_Pause.yy",},},

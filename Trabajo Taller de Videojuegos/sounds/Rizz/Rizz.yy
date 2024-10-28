@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"JumpScare1",
+  "%Name":"Rizz",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
-  "bitDepth":0,
+  "bitDepth":1,
   "bitRate":128,
   "compression":0,
-  "conversionMode":1,
-  "duration":3.932083,
-  "name":"JumpScare1",
+  "conversionMode":0,
+  "duration":1.632,
+  "name":"Rizz",
   "parent":{
     "name":"Sonidos",
     "path":"folders/Sonidos.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"JumpScare1.ogg",
+  "soundFile":"Rizz.mp3",
   "type":0,
-  "volume":0.15,
+  "volume":1.0,
 }
