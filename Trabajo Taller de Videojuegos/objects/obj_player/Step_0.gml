@@ -1,3 +1,4 @@
+
 #region Movimiento Player
 
 //Declaracion de botones para mover al jugador
