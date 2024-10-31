@@ -72,13 +72,3 @@ else if(btn_abajo)
 
 
 #endregion
-
-#region Liberar la room_office
-
-if(global.contador_llaves >= 7 )
-{
-	//especificar codigo para liberar la oficina
-	
-}
-
-#endregion

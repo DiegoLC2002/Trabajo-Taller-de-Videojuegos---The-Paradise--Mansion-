@@ -1,4 +1,4 @@
- reiniciar_room = keyboard_check(ord("R"));//cambiar por otra cosa
+ reiniciar_room = keyboard_check(ord("R"));
  
  
  if(room == Room3_Library)
