@@ -11,7 +11,8 @@ if (instance_place(x,y+5,obj_player))
 		draw_sprite(textbox,0,_x,_y);
 		draw_set_font(Font12);
 
-		draw_text(_x + 8 , _y ,"hola");
+		draw_text(_x + 8 , _y ,"Tu madre tiene una polla,");
+		draw_text(_x + 8 , _y + 15, "que ya la quisiera yiooo");
 
 
 

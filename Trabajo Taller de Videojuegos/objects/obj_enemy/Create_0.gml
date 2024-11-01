@@ -1,8 +1,13 @@
 
-vel_movimiento = 1;
+var mpersecusion;
 
+
+vel_movimiento = 1.25;
+/*
 
 alarm[0] = room_speed * 1;
+
+
 
 if(room == Room2_Hall){
 	path = [
@@ -14,7 +19,8 @@ if(room == Room2_Hall){
 	];
 	pathIndex = 0;
 	
-}else if(room == Room3_Library){
+	
+}else if(room == Room3_Library ){
 	path = [
 		[0, 1],[0, 1],[0, 1],[0, 1],[0, 1], //movimiento hacia abajo
 		[1, 0],[1, 0], //movimiento hacia derecha
@@ -52,7 +58,7 @@ if(room == Room2_Hall){
 	];
 	pathIndex = 0;
 
-}else if(room == Room5_Kitchen)
+}else if(room == Room5_Kitchen && !mpersecusion )
 {
 	path = [
 		[1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0],  //movimiento hacia derecha
@@ -90,3 +96,4 @@ if(room == Room2_Hall){
 	];
 	pathIndex = 0;
 }
+*/

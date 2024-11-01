@@ -38,7 +38,6 @@
     {"$GMFolder":"","%Name":"spr_jumpscare","folderPath":"folders/Sprites/spr_jumpscare.yy","name":"spr_jumpscare","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_letter","folderPath":"folders/Sprites/spr_letter.yy","name":"spr_letter","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_mansion","folderPath":"folders/Sprites/spr_mansion.yy","name":"spr_mansion","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"spr_WhiteRoom","folderPath":"folders/Sprites/spr_mansion/spr_WhiteRoom.yy","name":"spr_WhiteRoom","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_Bathrom","folderPath":"folders/Sprites/spr_mansion/spr_Bathrom.yy","name":"spr_Bathrom","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_Bedrom","folderPath":"folders/Sprites/spr_mansion/spr_Bedrom.yy","name":"spr_Bedrom","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_damage","folderPath":"folders/Sprites/spr_mansion/spr_damage.yy","name":"spr_damage","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -49,6 +48,7 @@
     {"$GMFolder":"","%Name":"spr_office","folderPath":"folders/Sprites/spr_mansion/spr_office.yy","name":"spr_office","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_outside","folderPath":"folders/Sprites/spr_mansion/spr_outside.yy","name":"spr_outside","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_storageRoom","folderPath":"folders/Sprites/spr_mansion/spr_storageRoom.yy","name":"spr_storageRoom","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"spr_WhiteRoom","folderPath":"folders/Sprites/spr_mansion/spr_WhiteRoom.yy","name":"spr_WhiteRoom","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_menus","folderPath":"folders/Sprites/spr_menus.yy","name":"spr_menus","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_others","folderPath":"folders/Sprites/spr_others.yy","name":"spr_others","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr_player","folderPath":"folders/Sprites/spr_player.yy","name":"spr_player","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -59,7 +59,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"Prototipo",
   "resources":[

@@ -1,4 +1,4 @@
-global.masterVolume = 1
+global.masterVolume = .5
 global.musicVolume = 1;
 cancionInstance = noone;
 cancionAsset = noone;
