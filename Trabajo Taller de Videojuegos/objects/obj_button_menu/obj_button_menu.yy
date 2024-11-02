@@ -39,5 +39,5 @@
     "path":"sprites/spr_start_button/spr_start_button.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

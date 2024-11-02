@@ -10,8 +10,8 @@
   "name":"oMusicManager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos Referencias",
-    "path":"folders/Objetos/Objetos Referencias.yy",
+    "name":"obj_menus",
+    "path":"folders/Objetos/obj_menus.yy",
   },
   "parentObjectId":null,
   "persistent":true,

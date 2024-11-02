@@ -5,3 +5,13 @@ global.contador_llaves = 0;
 global.n_cajas = 0;
 
 contador_carta = 0;
+
+if room == Room0_Menu
+|| room == Room12_WhiteRoom
+{
+	persistent = false
+	
+} else
+{
+	persistent = true	
+}

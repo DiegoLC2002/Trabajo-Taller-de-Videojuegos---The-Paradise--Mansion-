@@ -1,1 +1,0 @@
-texto = "The Mansion Paradise"
