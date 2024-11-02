@@ -58,7 +58,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Prototipo",
   "resources":[
@@ -80,7 +80,6 @@
     {"id":{"name":"obj_key_office","path":"objects/obj_key_office/obj_key_office.yy",},},
     {"id":{"name":"obj_kitchen_block","path":"objects/obj_kitchen_block/obj_kitchen_block.yy",},},
     {"id":{"name":"obj_kitchen_switch","path":"objects/obj_kitchen_switch/obj_kitchen_switch.yy",},},
-    {"id":{"name":"obj_letter","path":"objects/obj_letter/obj_letter.yy",},},
     {"id":{"name":"obj_library_block","path":"objects/obj_library_block/obj_library_block.yy",},},
     {"id":{"name":"obj_library_switch","path":"objects/obj_library_switch/obj_library_switch.yy",},},
     {"id":{"name":"obj_menu_text_draw","path":"objects/obj_menu_text_draw/obj_menu_text_draw.yy",},},
