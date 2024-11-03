@@ -24,7 +24,7 @@ if (pausa) {
                    ancho/sprite_width, alto/sprite_height, 0, c_white, 1);
     
     // Configura el texto
-    draw_set_font(Font12);
+    draw_set_font(Font_Die_small);
     draw_set_valign(fa_top);
     draw_set_halign(fa_left);
     

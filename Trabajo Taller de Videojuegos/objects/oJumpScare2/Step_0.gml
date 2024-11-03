@@ -17,12 +17,6 @@ y += random_range(-shake_intensity, shake_intensity);
 switch(state) {
     case "jumpscare":
         // El jumpscare está activo
-		if room == Room1_Outside {sprite_index = spr_jumpscare_bedroom}
-		if room == Room5_Kitchen {sprite_index = spr_jumpscare_bedroom}
-		if room == Room6_SecondFloor {sprite_index = spr_jumpscare_bedroom}
-		if room == Room3_Library {sprite_index = spr_jumpscare_bedroom}
-		if room == Room4_Bathom {sprite_index = spr_jumpscare_bedroom}
-		if room == Room1_Outside {sprite_index = spr_jumpscare_bedroom}
         image_alpha = 1;
         break;
         

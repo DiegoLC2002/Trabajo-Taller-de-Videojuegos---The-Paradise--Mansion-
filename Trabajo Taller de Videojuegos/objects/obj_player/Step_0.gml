@@ -1,4 +1,8 @@
 
+global.player_last_position_x = x;
+global.player_last_position_y = y;
+
+
 #region Movimiento Player
 
 //Declaracion de botones para mover al jugador

@@ -1,5 +1,4 @@
 /// obj_jumpscare_controller - Create Event
-sprite_index = noone;
 depth = -10000;        // Asegura que se dibuje por encima de todo
 image_speed = 1;       // Velocidad de la animación del jumpscare
 image_xscale = 1.25;      // Escala el sprite si es necesario

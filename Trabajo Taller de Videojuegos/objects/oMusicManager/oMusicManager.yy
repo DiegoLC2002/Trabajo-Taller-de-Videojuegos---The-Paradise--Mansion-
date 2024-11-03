@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos Referencias",
-    "path":"folders/Objetos Referencias.yy",
+    "path":"folders/Objetos/Objetos Referencias.yy",
   },
   "parentObjectId":null,
   "persistent":true,

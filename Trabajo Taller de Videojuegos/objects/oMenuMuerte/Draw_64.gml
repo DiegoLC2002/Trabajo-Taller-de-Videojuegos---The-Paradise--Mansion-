@@ -20,14 +20,14 @@ if (text_visible) {
         draw_set_color(c_red);
         draw_text_transformed(display_get_gui_width()/2 + off_x + 2, 
                             display_get_gui_height()/2 + off_y + 2, 
-                            "YOU DIED",
+                            "YOU WERE CAPTURED",
                             scale, scale, 0);
         
         // Texto principal
         draw_set_color(c_white);
         draw_text_transformed(display_get_gui_width()/2 + off_x, 
                             display_get_gui_height()/2 + off_y, 
-                            "YOU DIED",
+                            "YOU WERE CAPTURED",
                             scale, scale, 0);
     }
     
@@ -37,7 +37,7 @@ if (text_visible) {
         draw_set_font(Font_Die);
         draw_text_transformed(display_get_gui_width()/2, 
                             display_get_gui_height()/2 + 50 * scale, 
-                            "Press R to restart",
+                            "Presiona R para reiniciar",
                             scale * 0.8, scale * 0.8, 0);
     }
 }

@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_jumpscare_bedroom",
-    "path":"sprites/spr_jumpscare_bedroom/spr_jumpscare_bedroom.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
