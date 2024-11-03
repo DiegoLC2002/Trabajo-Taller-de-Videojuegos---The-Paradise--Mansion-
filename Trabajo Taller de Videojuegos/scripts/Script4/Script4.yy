@@ -1,12 +1,12 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"Script4",
   "isCompatibility":false,
   "isDnD":false,
   "name":"Script4",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"TextoC",
+    "path":"folders/Scripts/TextoC.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

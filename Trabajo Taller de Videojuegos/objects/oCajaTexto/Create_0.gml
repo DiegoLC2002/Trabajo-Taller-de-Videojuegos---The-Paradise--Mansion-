@@ -16,9 +16,9 @@ texto_image_spd = 0;
 
 pagina = 0;
 numero_pagina = 0;
-texto[0] = "Hola, esto es una prueba texto largo largo largo largo largo largo largo largo";
-texto[1] = "Probando 1... 2... 3...";
-texto[2] = "Funciona... creo...";
+texto[0] = " Yo: Necesito saber que fue lo que realmente paso ahi...";
+texto[1] = " Yo: Tengo la leve sospecha que... a pesar de sentirme solitario aqui...";
+texto[2] = " Yo: Me siento... observado";
 largo_texto[0] = array_length(texto[0]);
 dibujar_letra = 0;
 velocidad_texto = 1;

@@ -2,14 +2,14 @@
   "$GMObject":"",
   "%Name":"caja_interactuar",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"caja_interactuar",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_collisions",
-    "path":"folders/Objetos/Objetos Referencias/obj_collisions.yy",
+    "path":"folders/Objetos Referencias/obj_collisions.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,4 +1,13 @@
- reiniciar_room = keyboard_check(ord("R"));
+if (!instance_exists(oJumpScare) && !instance_exists(oMenuMuerte)) {
+    // Crear el jumpscare
+    instance_create_layer(x, y, "Instances", oJumpScare);
+    // Desactivar al jugador
+    speed = 0;
+    // No ocultar al jugador inmediatamente para evitar el vacío
+    alarm[0] = 60; // Usar alarm para ocultar al jugador después
+}
+ 
+ /*reiniciar_room = keyboard_check(ord("R"));
  
  
  if(room == Room3_Library)
@@ -60,3 +69,4 @@
 	}
  
  }
+ */

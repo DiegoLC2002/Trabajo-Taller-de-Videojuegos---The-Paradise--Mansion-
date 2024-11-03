@@ -20,7 +20,7 @@ switch(nivel_menu){
 	case 0:
 		switch(pos){
 		
-		case 0: instance_create_depth(0, 0, -9999, oFade); room_goto(Room1_Outside); break;
+		case 0: instance_create_depth(0, 0, -9999, oFade); room_goto(Room01_letter); break;
 	
 		case 1: nivel_menu = 1; break;
 		

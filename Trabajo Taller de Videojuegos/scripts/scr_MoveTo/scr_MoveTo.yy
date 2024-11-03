@@ -1,12 +1,12 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"scr_MoveTo",
   "isCompatibility":false,
   "isDnD":false,
   "name":"scr_MoveTo",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Alarmas",
+    "path":"folders/Scripts/Alarmas.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

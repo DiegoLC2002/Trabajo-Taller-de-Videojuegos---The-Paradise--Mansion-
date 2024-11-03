@@ -6,12 +6,10 @@ global.n_cajas = 0;
 
 contador_carta = 0;
 
-if room == Room0_Menu
-|| room == Room12_WhiteRoom
+
+
+if (room == Room0_Menu || room == Room12_WhiteRoom) && instance_exists(obj_player)
 {
-	persistent = false
+	instance_destroy();
 	
-} else
-{
-	persistent = true	
-}
+} 

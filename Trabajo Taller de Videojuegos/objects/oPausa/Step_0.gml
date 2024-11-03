@@ -48,6 +48,7 @@ if (pausa) {
                         break;
                     case 4: // Salir al menú
                         instance_activate_all();
+						instance_destroy(obj_player)
                         room_goto(Room0_Menu); pausa = false; // Cambia room_menu por tu sala de menú
                         break;
                 }
