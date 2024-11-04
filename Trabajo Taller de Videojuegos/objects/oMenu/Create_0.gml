@@ -18,3 +18,4 @@ opcion[1,3] = "Volver"
 */
 op_largo = 0;
 nivel_menu = 0;
+shake_amount = 8;

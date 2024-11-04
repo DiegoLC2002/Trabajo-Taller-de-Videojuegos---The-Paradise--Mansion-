@@ -11,6 +11,7 @@ global.n_cajas = 0;
 
 contador_carta = 0;
 
+var Iz_true, Der_true, Arr_true, Abj_true = noone
 
 if (room == Room0_Menu || room == Room12_WhiteRoom) && instance_exists(obj_player)
 {

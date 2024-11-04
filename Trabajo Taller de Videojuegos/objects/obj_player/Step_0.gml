@@ -12,6 +12,7 @@ var btn_arriba = keyboard_check(vk_up);
 var btn_abajo = keyboard_check(vk_down);
 var btn_correr = keyboard_check(vk_space);
 
+
 if(btn_derecha) 
 {
 	if(place_free(x+vel_movimiento,y)){
@@ -20,6 +21,7 @@ if(btn_derecha)
 	}
 	
 	sprite_index = spr_player_right;
+	Der_true = true;
 	
 	if(btn_correr)
 	{
@@ -35,6 +37,7 @@ else if(btn_izquierda)
 	}
 	
 	sprite_index = spr_player_left;
+	Iz_true = true;
 	
 	if(btn_correr)
 	{
@@ -49,6 +52,7 @@ else if(btn_arriba)
 	}
 	
 	sprite_index = spr_player_up;
+	Arr_true = true
 	
 	if(btn_correr)
 	{
@@ -64,6 +68,7 @@ else if(btn_abajo)
 	}
 	
 	sprite_index = spr_player_down;
+	Abj_true = true;
 	
 	if(btn_correr)
 	{

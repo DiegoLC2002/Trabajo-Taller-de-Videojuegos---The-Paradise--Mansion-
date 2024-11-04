@@ -1,10 +1,14 @@
 // Draw Event:
 if (pausa) {
     // Dibuja un overlay oscuro en toda la pantalla
+	
     draw_set_alpha(0.5);
     draw_set_color(c_black);
     draw_rectangle(0, 0, 999999, 999999, false);
     draw_set_alpha(1);
+	
+	var shake_x = random_range(-shake_amount, shake_amount);
+    var shake_y = random_range(-shake_amount, shake_amount);
 	
 	
 	if nivel_menu == 1 { ancho = 400 }
@@ -38,7 +42,14 @@ if (pausa) {
     // Dibuja las opciones
     for (var i = 0; i < op_largo; i++) {
         var color = c_black;
-        if (pos == i) {color = c_red;}
+        if (pos == i) 
+		{
+			color = c_red;
+			draw_text_color(menu_x + op_borde + shake_x, 
+                       menu_y + op_borde + op_espacio*i + shake_y,
+                       opcion[nivel_menu,i],
+                       color, color, color, color, 1);
+		}
         draw_text_color(menu_x + op_borde, 
                        menu_y + op_borde + op_espacio*i,
                        opcion[nivel_menu,i],
