@@ -24,6 +24,7 @@ if (pausa) {
     var menu_y = cam_y + (cam_height - alto) / 2;
     
     // Dibuja el fondo del menú
+	depth = -99999;
     draw_sprite_ext(sprite_index, image_index, menu_x, menu_y, 
                    ancho/sprite_width, alto/sprite_height, 0, c_white, 1);
 	
