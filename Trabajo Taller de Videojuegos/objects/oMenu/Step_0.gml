@@ -14,20 +14,21 @@ if pos < 0 {pos = op_largo -1}
 if tecla_aceptar{
 	
 	var emp = nivel_menu;
-	
+/*	
 switch(nivel_menu){
 		
 	case 0:
+	*/
 		switch(pos){
 		
 		case 0: instance_create_depth(0, 0, -9999, oFade); room_goto(Room01_letter); break;
 	
-		case 1: nivel_menu = 1; break;
+		case 1: game_end(); break;
 		
-		case 2: game_end(); break;
+		//case 2: nivel_menu = 1 break;
 	
 	}
-	
+	/*
 	case 1:
 	
 		switch(pos){
@@ -40,7 +41,7 @@ switch(nivel_menu){
 		}
 	break;
 	
-	}
+	}*/
 	
 if emp != nivel_menu {pos = 0}
 op_largo = array_length(opcion[nivel_menu]);

@@ -127,6 +127,7 @@
     {"name":"inst_6BBC2D83","path":"rooms/Room9_SecondFloor_Bedrom/Room9_SecondFloor_Bedrom.yy",},
     {"name":"inst_25E7ECD2","path":"rooms/Room9_SecondFloor_Bedrom/Room9_SecondFloor_Bedrom.yy",},
     {"name":"inst_1569B96F","path":"rooms/Room9_SecondFloor_Bedrom/Room9_SecondFloor_Bedrom.yy",},
+    {"name":"inst_7E0404F3","path":"rooms/Room9_SecondFloor_Bedrom/Room9_SecondFloor_Bedrom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -259,6 +260,7 @@
         {"$GMRInstance":"","%Name":"inst_68458D95","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68458D95","objectId":{"name":"obj_key_office","path":"objects/obj_key_office/obj_key_office.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":480.0,},
         {"$GMRInstance":"","%Name":"inst_6BBC2D83","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6BBC2D83","objectId":{"name":"obj_key_office","path":"objects/obj_key_office/obj_key_office.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":608.0,},
         {"$GMRInstance":"","%Name":"inst_1569B96F","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1569B96F","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":0.0,},
+        {"$GMRInstance":"","%Name":"inst_7E0404F3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E0404F3","objectId":{"name":"obj_respawn","path":"objects/obj_respawn/obj_respawn.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_3D874C95","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_3D874C95","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_bedrom_floor","path":"sprites/spr_bedrom_floor/spr_bedrom_floor.yy",},"x":512.0,"y":0.0,},

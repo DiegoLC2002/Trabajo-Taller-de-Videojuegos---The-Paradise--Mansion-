@@ -104,6 +104,7 @@
     {"name":"inst_A0CF2C","path":"rooms/Room5_Kitchen/Room5_Kitchen.yy",},
     {"name":"inst_583CA15E","path":"rooms/Room5_Kitchen/Room5_Kitchen.yy",},
     {"name":"inst_7BC84371","path":"rooms/Room5_Kitchen/Room5_Kitchen.yy",},
+    {"name":"inst_55CF38BA","path":"rooms/Room5_Kitchen/Room5_Kitchen.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -213,6 +214,7 @@
         {"$GMRInstance":"","%Name":"inst_6B755AD1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B755AD1","objectId":{"name":"obj_beer","path":"objects/obj_beer/obj_beer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":704.0,},
         {"$GMRInstance":"","%Name":"inst_A0CF2C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A0CF2C","objectId":{"name":"obj_key_office","path":"objects/obj_key_office/obj_key_office.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":544.0,},
         {"$GMRInstance":"","%Name":"inst_583CA15E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_583CA15E","objectId":{"name":"obj_beer","path":"objects/obj_beer/obj_beer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":416.0,},
+        {"$GMRInstance":"","%Name":"inst_55CF38BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55CF38BA","objectId":{"name":"obj_respawn","path":"objects/obj_respawn/obj_respawn.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":320.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_13118A6","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_13118A6","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_kitchen_wall","path":"sprites/spr_kitchen_wall/spr_kitchen_wall.yy",},"x":1088.0,"y":192.0,},

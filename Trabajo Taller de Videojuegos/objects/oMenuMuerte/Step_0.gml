@@ -6,12 +6,6 @@ scale = lerp(scale, target_scale, 0.1);
 /// Evento Step del menú de muerte
 if (can_restart && keyboard_check_pressed(ord("R"))) {
 	
-	
-	// Cargar el estado desde el último checkpoint
-    ini_open("save.ini");
-    x = ini_read_real("Player", "x", x);
-    y = ini_read_real("Player", "y", y);
-    ini_close();
 	// Crear efecto de fade-out
     instance_create_depth(0, 0, -9999, oFade);
     

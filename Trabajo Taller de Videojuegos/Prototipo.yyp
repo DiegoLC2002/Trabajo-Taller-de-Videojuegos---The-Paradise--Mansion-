@@ -94,6 +94,7 @@
     {"id":{"name":"obj_menu_texto","path":"objects/obj_menu_texto/obj_menu_texto.yy",},},
     {"id":{"name":"obj_pillow","path":"objects/obj_pillow/obj_pillow.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_respawn","path":"objects/obj_respawn/obj_respawn.yy",},},
     {"id":{"name":"obj_soko_floor_2","path":"objects/obj_soko_floor_2/obj_soko_floor_2.yy",},},
     {"id":{"name":"obj_soko_floor_3","path":"objects/obj_soko_floor_3/obj_soko_floor_3.yy",},},
     {"id":{"name":"obj_soko_floor","path":"objects/obj_soko_floor/obj_soko_floor.yy",},},

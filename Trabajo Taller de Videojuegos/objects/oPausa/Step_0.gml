@@ -24,30 +24,36 @@ if (pausa) {
     
     pos += tecla_abajo - tecla_arriba;
     
-    if (pos >= op_largo) {pos = 0;}
-    if (pos < 0) {pos = op_largo - 1;}
-    
+    if (pos >= op_largo) {pos = 1;}
+    if (pos < 1) {pos = op_largo - 1;}
+	
+	if nivel_menu == 1 { pos = 7 };
+	
+	
+	
     if (tecla_aceptar) {
         var emp = nivel_menu;
         
         switch(nivel_menu) {
             case 0: // Menú principal de pausa
                 switch(pos) {
-                    case 0: // Continuar
+                    case 0: break;
+					
+					case 1: // Continuar
                         pausa = false;
                         instance_activate_all();
                         break;
-                    case 1: // Guardar
-                        // Aquí tu código de guardado
+						
+                    case 2: pausa = !pausa;
+							instance_activate_all(); // Reactiva todo
+							nivel_menu = 0;
+							pos = 0;
+							instance_create_depth(0, 0, -9999, oFade);
+							room_restart();
+						break;					
+                    case 3: nivel_menu = 1;
                         break;
-                    case 2: // Cargar
-                        // Aquí tu código de carga
-                        break;
-                    case 3: // Ajustes
-                        nivel_menu = 1;
-                        break;
-                    case 4: // Salir al menú
-                        instance_activate_all();
+                    case 4:  instance_activate_all();
 						instance_destroy(obj_player)
                         room_goto(Room0_Menu); pausa = false; // Cambia room_menu por tu sala de menú
                         break;
@@ -62,7 +68,15 @@ if (pausa) {
                         break;
                     case 2: // Controles
                         break;
-                    case 3: // Volver
+					case 3: // Controles
+                        break;
+					case 4: // Controles
+                        break;
+					case 5: // Controles
+                        break;
+					case 6: // Controles
+                        break;
+                    case 7: // Volver
                         nivel_menu = 0;
                         break;
                 }

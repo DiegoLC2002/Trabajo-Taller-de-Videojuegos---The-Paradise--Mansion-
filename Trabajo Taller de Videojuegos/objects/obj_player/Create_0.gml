@@ -1,3 +1,8 @@
+persistent = true;
+respawn_x = x;
+respawn_y = y;
+is_dead = false;
+
 vel_movimiento = 1.6;
 vel_correr = .7;
 
@@ -11,4 +16,4 @@ if (room == Room0_Menu || room == Room12_WhiteRoom) && instance_exists(obj_playe
 {
 	instance_destroy();
 	
-} 
+}	

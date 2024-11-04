@@ -5,6 +5,10 @@ if (pausa) {
     draw_set_color(c_black);
     draw_rectangle(0, 0, 999999, 999999, false);
     draw_set_alpha(1);
+	
+	
+	if nivel_menu == 1 { ancho = 400 }
+	else {  ancho = 192 }
     
     // Calcula dimensiones del menú
     alto = op_borde*2 + sprite_get_height(fontBorder) + (op_largo - 1)*(op_espacio - 5);
@@ -22,11 +26,13 @@ if (pausa) {
     // Dibuja el fondo del menú
     draw_sprite_ext(sprite_index, image_index, menu_x, menu_y, 
                    ancho/sprite_width, alto/sprite_height, 0, c_white, 1);
-    
-    // Configura el texto
-    draw_set_font(Font_Die_small);
+	
+	// Configura el texto
+    draw_set_font(Font_Die);
     draw_set_valign(fa_top);
     draw_set_halign(fa_left);
+	
+		
     
     // Dibuja las opciones
     for (var i = 0; i < op_largo; i++) {

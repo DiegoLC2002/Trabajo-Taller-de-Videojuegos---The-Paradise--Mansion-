@@ -77,3 +77,13 @@ else if(btn_abajo)
 
 
 #endregion
+
+if (is_dead) {
+    // Buscar el punto de respawn en la sala actual
+    var respawn_point = instance_nearest(0, 0, obj_respawn);
+    if (respawn_point != noone) {
+        x = respawn_point.x;
+        y = respawn_point.y;
+    }
+    is_dead = false;
+}
