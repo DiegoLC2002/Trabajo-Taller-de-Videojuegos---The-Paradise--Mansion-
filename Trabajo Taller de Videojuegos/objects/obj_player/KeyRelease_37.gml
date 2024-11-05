@@ -1,1 +1,0 @@
-if (Iz_true) { image_index = 2  }

@@ -15,7 +15,7 @@ opcion[0,3] = "Controles";
 opcion[0,4] = "Salir al Menu";
 
 // Opciones de ajustes
-opcion[1,0] = "           >> CONTROLES: << "
+opcion[1,0] = "           >> CONTROLES << "
 opcion[1,1] = "Flecha Arriba -> Subir";
 opcion[1,2] = "Flecha Abajo -> Bajar";
 opcion[1,3] = "Flecha Izquierda -> Izquierda";

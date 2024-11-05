@@ -2,6 +2,15 @@ if (!instance_exists(oJumpScare) && !instance_exists(oMenuMuerte)) {
     // Crear el jumpscare
 	if (!is_dead){
 	is_dead = true;
+    usar_checkpoint = true;
+	var respawn_point = instance_nearest(0, 0, obj_respawn);
+    
+    // Si existe un respawn, guarda sus coordenadas y activa el checkpoint
+    if (respawn_point != noone) {
+        checkpoint_x = respawn_point.x;
+        checkpoint_y = respawn_point.y;
+        checkpoint_valido = true; // Marca el checkpoint como activo
+    }
 	instance_create_layer(x, y, "Instances", oJumpScare);
 	}
     speed = 0;
