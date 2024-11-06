@@ -11,8 +11,7 @@ alpha_text = lerp(alpha_text, target_alpha, 0.1); // 0.1 es la velocidad del fad
 
 if (alpha_text > 0.05) { // Solo dibujamos si hay algo visible
     // Variables para el texto
-    if (room == Room1_Outside)
-	{ var text = "Presiona E para usar la puerta"; }
+    if (room == Room1_Outside) { var text = "Presiona E para usar la puerta"; }
 	else { var text = "E para abrir puerta";}
     var padding = 6;
     var base_alpha = 0.8;

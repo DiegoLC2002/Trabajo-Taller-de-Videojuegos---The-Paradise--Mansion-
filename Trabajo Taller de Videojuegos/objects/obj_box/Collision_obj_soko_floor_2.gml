@@ -1,3 +1,5 @@
+/// @description Inserte aquí la descripción
+// Puede escribir su código en este editor
 // En el evento de colisión entre caja y suelo
 var id_caja = string(id);         // ID único de la caja
 var id_suelo = string(other.id);  // ID único del suelo
