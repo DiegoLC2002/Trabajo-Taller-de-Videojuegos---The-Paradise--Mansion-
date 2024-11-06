@@ -477,8 +477,8 @@
   ],
   "name":"Room3_Library",
   "parent":{
-    "name":"Salas",
-    "path":"folders/Salas.yy",
+    "name":"Primer Piso",
+    "path":"folders/Salas/Primer Piso.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
