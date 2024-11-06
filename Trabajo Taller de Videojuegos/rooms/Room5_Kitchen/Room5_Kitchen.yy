@@ -388,8 +388,8 @@
   ],
   "name":"Room5_Kitchen",
   "parent":{
-    "name":"Primer Piso",
-    "path":"folders/Salas/Primer Piso.yy",
+    "name":"Salas",
+    "path":"folders/Salas.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -171,8 +171,8 @@
   ],
   "name":"Room7_SecondFloor_left",
   "parent":{
-    "name":"Segundo Piso",
-    "path":"folders/Salas/Segundo Piso.yy",
+    "name":"Salas",
+    "path":"folders/Salas.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
