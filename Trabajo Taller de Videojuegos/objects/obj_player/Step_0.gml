@@ -1,7 +1,6 @@
 global.player_last_position_x = x;
 global.player_last_position_y = y;
 
-
 #region Movimiento Player
 // Evento Step
 var btn_derecha = keyboard_check(vk_right);

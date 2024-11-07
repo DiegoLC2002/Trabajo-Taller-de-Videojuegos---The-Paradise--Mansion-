@@ -25,6 +25,3 @@ if (room == Room0_Menu || room == Room12_WhiteRoom) && instance_exists(obj_playe
 	
 }	
 
-
-
-

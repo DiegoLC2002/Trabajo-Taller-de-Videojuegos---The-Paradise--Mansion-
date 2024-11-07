@@ -63,7 +63,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Prototipo",
   "resources":[
@@ -175,6 +175,7 @@
     {"id":{"name":"spr_bedrom_window","path":"sprites/spr_bedrom_window/spr_bedrom_window.yy",},},
     {"id":{"name":"spr_bedrom_windows_3","path":"sprites/spr_bedrom_windows_3/spr_bedrom_windows_3.yy",},},
     {"id":{"name":"spr_beer","path":"sprites/spr_beer/spr_beer.yy",},},
+    {"id":{"name":"spr_black_fond","path":"sprites/spr_black_fond/spr_black_fond.yy",},},
     {"id":{"name":"spr_black_wall","path":"sprites/spr_black_wall/spr_black_wall.yy",},},
     {"id":{"name":"spr_bookpage","path":"sprites/spr_bookpage/spr_bookpage.yy",},},
     {"id":{"name":"spr_damage_floor","path":"sprites/spr_damage_floor/spr_damage_floor.yy",},},
