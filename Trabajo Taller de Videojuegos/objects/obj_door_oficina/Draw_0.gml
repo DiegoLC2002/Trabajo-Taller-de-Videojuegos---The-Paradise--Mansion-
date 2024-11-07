@@ -14,6 +14,14 @@ if (alpha_text > 0.05) { // Solo dibujamos si hay algo visible
 	
 	var text = "Abrir puerta";
 	if (room == Room1_Outside) { var text = "Presiona E para usar la puerta"; }
+	if (room == Room6_SecondFloor && global.contador_llaves == 7 && (obj_door.x == 480 && obj_door.y == 352)) { var text = "Entrar a la oficina"; }
+	else if (room == Room6_SecondFloor && global.contador_llaves == 6 && (obj_door.x == 480 && obj_door.y == 352)) { var text = "Necesitas 1 llave mas para acceder\na la oficina"; }
+	else if (room == Room6_SecondFloor && global.contador_llaves == 5 && (obj_door.x == 480 && obj_door.y == 352)) { var text = "Necesitas 2 llaves para acceder\na la oficina"; }
+	else if (room == Room6_SecondFloor && global.contador_llaves == 4 && (obj_door.x == 480 && obj_door.y == 352)) { var text = "Necesitas 3 llaves para acceder\na la oficina"; }
+	else if (room == Room6_SecondFloor && global.contador_llaves == 3 && (obj_door.x == 480 && obj_door.y == 352)) { var text = "Necesitas 4 llaves para acceder\na la oficina"; }
+	else if (room == Room6_SecondFloor && global.contador_llaves == 2 && (obj_door.x == 480 && obj_door.y == 352)) { var text = "Necesitas 5 llaves para acceder\na la oficina"; }
+	else if (room == Room6_SecondFloor && global.contador_llaves == 1 && (obj_door.x == 480 && obj_door.y == 352)) { var text = "Necesitas 6 llaves para acceder\na la oficina"; }
+	else if (room == Room6_SecondFloor && global.contador_llaves == 0 && (obj_door.x == 480 && obj_door.y == 352)) { var text = "Necesitas las 7 llaves para acceder\na la oficina"; }
 	
     var padding = 6;
     var base_alpha = 0.8;
