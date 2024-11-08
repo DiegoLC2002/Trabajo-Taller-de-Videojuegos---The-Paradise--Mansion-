@@ -63,7 +63,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"Prototipo",
   "resources":[
@@ -148,6 +148,7 @@
     {"id":{"name":"fontBorder_2","path":"sprites/fontBorder_2/fontBorder_2.yy",},},
     {"id":{"name":"fontBorder","path":"sprites/fontBorder/fontBorder.yy",},},
     {"id":{"name":"forest_night","path":"sprites/forest_night/forest_night.yy",},},
+    {"id":{"name":"ghostSpritesheetfull","path":"sprites/ghostSpritesheetfull/ghostSpritesheetfull.yy",},},
     {"id":{"name":"interactuar","path":"sprites/interactuar/interactuar.yy",},},
     {"id":{"name":"NES_Mansion_Tile_Set","path":"sprites/NES_Mansion_Tile_Set/NES_Mansion_Tile_Set.yy",},},
     {"id":{"name":"Player___Run_1","path":"sprites/Player___Run_1/Player___Run_1.yy",},},
@@ -308,6 +309,7 @@
     {"id":{"name":"Sprite127","path":"sprites/Sprite127/Sprite127.yy",},},
     {"id":{"name":"Sprite165","path":"sprites/Sprite165/Sprite165.yy",},},
     {"id":{"name":"Sprite171","path":"sprites/Sprite171/Sprite171.yy",},},
+    {"id":{"name":"Sprite176","path":"sprites/Sprite176/Sprite176.yy",},},
     {"id":{"name":"Sprite21_1","path":"sprites/Sprite21_1/Sprite21_1.yy",},},
     {"id":{"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},},
     {"id":{"name":"Sprite39","path":"sprites/Sprite39/Sprite39.yy",},},

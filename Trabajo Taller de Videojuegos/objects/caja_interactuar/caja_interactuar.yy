@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"caja_interactuar",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"caja_interactuar",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"interactuar",
-    "path":"sprites/interactuar/interactuar.yy",
+    "name":"Sprite176",
+    "path":"sprites/Sprite176/Sprite176.yy",
   },
   "spriteMaskId":null,
   "visible":true,
