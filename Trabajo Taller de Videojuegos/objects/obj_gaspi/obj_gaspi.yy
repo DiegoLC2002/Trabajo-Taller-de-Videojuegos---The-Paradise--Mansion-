@@ -1,16 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Camera",
+  "%Name":"obj_gaspi",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Camera",
+  "name":"obj_gaspi",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos Invisibles",
-    "path":"folders/Objetos/Objetos Invisibles.yy",
+    "name":"obj_characters",
+    "path":"folders/Objetos/obj_characters.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite176",
+    "path":"sprites/Sprite176/Sprite176.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

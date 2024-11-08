@@ -22,7 +22,8 @@ opcion[1,3] = "Flecha Izquierda -> Izquierda";
 opcion[1,4] = "Flecha Derecha -> Derecha";
 opcion[1,5] = "Espacio -> Correr";
 opcion[1,6] = "Letra 'E' -> Interactuar con puertas";
-opcion[1,7] = "Volver";
+opcion[1,7] = "Tab -> Objetivo";
+opcion[1,8] = "Volver";
 
 op_largo = 0;
 nivel_menu = 0;

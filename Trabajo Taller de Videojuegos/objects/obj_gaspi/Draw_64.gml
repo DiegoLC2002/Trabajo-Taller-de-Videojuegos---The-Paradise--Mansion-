@@ -1,7 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-
+/*
 if (instance_place(x,y+5,obj_player))
 	{
 		
@@ -14,3 +14,4 @@ if (instance_place(x,y+5,obj_player))
 		draw_text(_x + 8 , _y + 15,text2);
 
 	}
+	*/

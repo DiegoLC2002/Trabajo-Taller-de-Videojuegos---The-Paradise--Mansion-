@@ -13,6 +13,6 @@ if (keyboard_check_pressed(vk_enter)) {
         // Eliminar la carta
         sprite_index = noone;
 		instance_create_depth(0, 0, -9999, oFade);
-		room_goto_next();
+		room_goto(Room1_Outside);
     }
 }

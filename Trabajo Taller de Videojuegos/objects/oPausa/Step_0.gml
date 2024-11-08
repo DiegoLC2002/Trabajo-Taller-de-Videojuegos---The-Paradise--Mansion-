@@ -1,6 +1,6 @@
 // Step Event:
 
-if (keyboard_check_pressed(vk_escape)) {
+if (keyboard_check_pressed(vk_escape) && !(room == Room0_Menu || room == Room01_letter || room == Room12_WhiteRoom)) {
    
    pausa = !pausa;
     if (pausa) {
@@ -28,7 +28,7 @@ if (pausa) {
     if (pos < 1) {pos = op_largo - 1;}
 	
 	
-	if nivel_menu == 1 { pos = 7 };
+	if nivel_menu == 1 { pos = 8 };
 	
 	
 	
@@ -51,7 +51,11 @@ if (pausa) {
 							nivel_menu = 0;
 							pos = 0;
 							instance_create_depth(0, 0, -9999, oFade);
-							if (instance_nearest(0,0,obj_door))
+							if(instance_exists( obj_respawn))
+							{
+							obj_player.x = obj_respawn.x;
+							obj_player.y = obj_respawn.y;
+							}
 							room_restart();
 						break;					
                     case 3: nivel_menu = 1;
@@ -79,7 +83,9 @@ if (pausa) {
                         break;
 					case 6: // Controles
                         break;
-                    case 7: // Volver
+					case 7: // Controles
+                        break;
+                    case 8: // Volver
                         nivel_menu = 0;
                         break;
                 }

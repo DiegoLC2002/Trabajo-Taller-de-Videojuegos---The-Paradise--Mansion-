@@ -1,10 +1,17 @@
+/// @description Inserte aquí la descripción
+// Puede escribir su código en este editor
 // Draw Event
 draw_self();
 
 var target_alpha = 0;
-if (distance_to_object(obj_player) < 15 && !is_open) {
+if (distance_to_object(obj_player) < 25) {
     target_alpha = 1;
+
 }
+
+var shake_x = random_range(-shake_amount, shake_amount);
+var shake_y = random_range(-shake_amount, shake_amount);
+
 
 // Suavizar la transición del alpha
 alpha_text = lerp(alpha_text, target_alpha, 0.1); // 0.1 es la velocidad del fade, ajústalo si quieres más rápido/lento
@@ -12,15 +19,17 @@ alpha_text = lerp(alpha_text, target_alpha, 0.1); // 0.1 es la velocidad del fad
 if (alpha_text > 0.05) { // Solo dibujamos si hay algo visible
     // Variables para el texto
 	
-	
-	if (global.contador_llaves == 0) {var text = "Llaves encontradas: 0 de 7";}
-	else if (global.contador_llaves == 1) {var text = "Llaves encontradas: 1 de 7";}
-	else if (global.contador_llaves == 2) {var text = "Llaves encontradas: 2 de 7";}
-	else if (global.contador_llaves == 3) {var text = "Llaves encontradas: 3 de 7";}
-	else if (global.contador_llaves == 4) {var text = "Llaves encontradas: 4 de 7";}
-	else if (global.contador_llaves == 5) {var text = "Llaves encontradas: 5 de 7";}
-	else if (global.contador_llaves == 6) {var text = "Llaves encontradas: 6 de 7";}
-	else if (global.contador_llaves == 7) {var text = "Entrar a la oficina...";}
+	if (room == Room2_Hall)
+	{
+		var text = "Caspi: OYEE!!... me pareces familiar... \nsolo que no recuerdo en donde...  "
+	}
+	if (room == Room5_Kitchen) { var text = "Caspi: Siempre me ha dado escalofrio \nla cocina... Te recomiendo ir con cuidado..."}
+	if (room == Room6_SecondFloor) 
+	{ 
+		if (global.contador_llaves == 0){var text = "Para acceder a la oficina, necesitas\nlas llaves que estan en las habitaciones" ;}	
+		if (global.contador_llaves == 4){var text = "Ya tienes una llave, ahora solo\nfaltan 3 mas" ;}	
+		if (global.contador_llaves == 6){var text = "Solo te falta 1, Rapido!!!" ;}	
+	}
 	
     var padding = 6;
     var base_alpha = 0.8;
@@ -29,7 +38,6 @@ if (alpha_text > 0.05) { // Solo dibujamos si hay algo visible
     draw_set_font(Font_Interaccion);
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
-	depth = -9999;
     
     var text_width = string_width(text);
     var text_height = string_height(text);
@@ -38,7 +46,8 @@ if (alpha_text > 0.05) { // Solo dibujamos si hay algo visible
     
     // Posición del cuadro
     var box_x = (x + sprite_width/2) - (box_width / 2);
-    var box_y = y - 100;
+    if (room == Room5_Kitchen || room == Room4_Bathom || room == Room3_Library) { var box_y = y - 30 }
+	var box_y = y - 60 ;
     
 	
     // Efecto de sombra
@@ -55,8 +64,24 @@ if (alpha_text > 0.05) { // Solo dibujamos si hay algo visible
     draw_set_color(make_color_rgb(70, 70, 80));
     draw_set_alpha((base_alpha * 0.8) * alpha_text);
     draw_roundrect(box_x, box_y, box_x + box_width, box_y + box_height, true);
-    
+	
+	if ( room == Room3_Library
+	  || room == Room4_Bathom
+	  || room == Room5_Kitchen)
+    {
     // Halo del texto
+    draw_set_color(c_white);
+    draw_set_alpha(0.3 * alpha_text);
+    draw_text(x + sprite_width/2 + 1 + shake_x, box_y + box_height/2 + 1 + shake_y, text);
+    draw_text(x + sprite_width/2 - 1 + shake_x, box_y + box_height/2 - 1 + shake_y, text);
+    
+    // Texto principal
+    draw_set_color(c_white);
+    draw_set_alpha(0.9 * alpha_text);
+    draw_text(x + sprite_width/2 + shake_x, box_y + box_height/2 + shake_y, text);
+	} else {
+	
+	// Halo del texto
     draw_set_color(c_white);
     draw_set_alpha(0.3 * alpha_text);
     draw_text(x + sprite_width/2 + 1, box_y + box_height/2 + 1, text);
@@ -66,10 +91,11 @@ if (alpha_text > 0.05) { // Solo dibujamos si hay algo visible
     draw_set_color(c_white);
     draw_set_alpha(0.9 * alpha_text);
     draw_text(x + sprite_width/2, box_y + box_height/2, text);
-    
+	}
     // Resetear configuraciones
     draw_set_alpha(1);
     draw_set_halign(fa_left);
     draw_set_valign(fa_top);
     draw_set_font(-1);
+	
 }
