@@ -1,7 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-if (keyboard_check_pressed(ord("E"))){
+if (keyboard_check_pressed(ord("E")) && global.contador_llaves == 7){
 audio_play_sound(Door,2,false);
 
 
