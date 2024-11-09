@@ -19,19 +19,7 @@ alpha_text = lerp(alpha_text, target_alpha, 0.1); // 0.1 es la velocidad del fad
 if (alpha_text > 0.05) { // Solo dibujamos si hay algo visible
     // Variables para el texto
 	
-	if (room == Room2_Hall)
-	{
-		var text = "Caspi: OYEE!!... me pareces familiar... \nsolo que no recuerdo en donde...  "
-	}
-	if (room == Room5_Kitchen) { var text = "Caspi: Siempre me ha dado escalofrio \nla cocina... Te recomiendo ir con cuidado..."}
-	if (room == Room6_SecondFloor) 
-	{ 
-		if (global.contador_llaves >= 0 && global.contador_llaves < 4){var text = "Para acceder a la oficina, necesitas\nlas llaves que estan en las habitaciones" ;}	
-		if (global.contador_llaves >= 4 && global.contador_llaves < 6){var text = "Ya llevas algunas llaves, ahora solo ten cuidado de no\n MORIR!!" ;}	
-		if (global.contador_llaves == 6){var text = "Solo te falta 1, Rapido!!!" ;}	
-		if (global.contador_llaves >= 7){var text = "Ya puedes entrar!! " ;}	
-	}
-	
+	var text = " Guardia: .... Uff… finalmente lo atrapamos.\nGuardia: No se preocupe doctor Bruno, es mi trabajo después de todo, por cierto, ¿puedo hacerle una pregunta?\nGuardia: No se si es adecuado que pregunte esto pero, ¿Cómo llego ese hombre a este manicomio?\nGuardia: ¿En serio?\nGuardia: ¿Un accidente?\nGuardia: ¿Por eso es que no para de confundir las instalaciones del edificio o de confundirme a mi y a usted con monstruos y fantasmas?\nGuardia: Por supuesto doctor, usted puede contar conmigo.";
     var padding = 6;
     var base_alpha = 0.8;
     

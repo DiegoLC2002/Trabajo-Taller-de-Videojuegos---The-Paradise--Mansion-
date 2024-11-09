@@ -10,7 +10,7 @@ checkpoint_y = noone;
 vel_movimiento = 1.6;
 vel_correr = .7;
 
-global.contador_llaves = 0;
+global.contador_llaves = 7;
 global.n_cajas = 0;
 
 contador_carta = 0;
@@ -19,7 +19,7 @@ ultima_direccion = "arriba";
 
 var Iz_true, Der_true, Arr_true, Abj_true = noone
 
-if (room == Room0_Menu || room == Room12_WhiteRoom) && instance_exists(obj_player)
+if (room == Room0_Menu || room == Room12_WhiteRoom || room == Room16_Final) && instance_exists(obj_player)
 {
 	instance_destroy();
 	
