@@ -427,8 +427,8 @@
   ],
   "name":"Room1_Outside",
   "parent":{
-    "name":"Salas",
-    "path":"folders/Salas.yy",
+    "name":"2. Patio",
+    "path":"folders/Salas/2. Patio.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

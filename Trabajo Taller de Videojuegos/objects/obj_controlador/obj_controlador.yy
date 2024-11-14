@@ -11,8 +11,8 @@
   "name":"obj_controlador",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos Referencias",
-    "path":"folders/Objetos/Objetos Referencias.yy",
+    "name":"Objetos Invisibles",
+    "path":"folders/Objetos/Objetos Invisibles.yy",
   },
   "parentObjectId":null,
   "persistent":true,

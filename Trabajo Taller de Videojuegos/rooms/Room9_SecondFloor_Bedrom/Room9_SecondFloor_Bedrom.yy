@@ -453,8 +453,8 @@
   ],
   "name":"Room9_SecondFloor_Bedrom",
   "parent":{
-    "name":"Salas",
-    "path":"folders/Salas.yy",
+    "name":"Habitaciones",
+    "path":"folders/Salas/4. Segundo Piso/Habitaciones.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

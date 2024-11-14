@@ -25,8 +25,8 @@
   ],
   "name":"Room0_Menu",
   "parent":{
-    "name":"Salas",
-    "path":"folders/Salas.yy",
+    "name":"1. Menu",
+    "path":"folders/Salas/1. Menu.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

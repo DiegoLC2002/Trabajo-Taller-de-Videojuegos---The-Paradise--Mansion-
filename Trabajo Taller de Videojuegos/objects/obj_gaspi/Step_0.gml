@@ -1,5 +1,10 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
+
+if (obj_player.y < y ){ obj_player.depth = depth + 1}
+if (obj_player.y > y ){ obj_player.depth = depth - 1}
+
+
 // En el Step Event del objeto fantasma
 var dist = point_distance(x, y, obj_player.x, obj_player.y);
 var target_alpha;

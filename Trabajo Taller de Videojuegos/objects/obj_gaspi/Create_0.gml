@@ -7,3 +7,4 @@ image_alpha = 0; // Comienza invisible
 fade_distance = 200; // Distancia a la que empieza a aparecer/desaparecer
 
 shake_amount = .6;
+texto_sala = "";

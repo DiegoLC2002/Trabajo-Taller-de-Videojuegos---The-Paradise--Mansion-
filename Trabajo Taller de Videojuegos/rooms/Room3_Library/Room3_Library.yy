@@ -479,8 +479,8 @@
   ],
   "name":"Room3_Library",
   "parent":{
-    "name":"Salas",
-    "path":"folders/Salas.yy",
+    "name":"Puzzles",
+    "path":"folders/Salas/3. Primer Piso/Puzzles.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

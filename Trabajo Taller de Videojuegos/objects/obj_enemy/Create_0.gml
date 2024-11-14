@@ -6,8 +6,8 @@ vel_movimiento = 1.25;
 
 
 
-
-
+// En Create Event:
+effect_active = false;
  
 
 /*

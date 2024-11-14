@@ -254,8 +254,8 @@
   ],
   "name":"Room11_Office",
   "parent":{
-    "name":"Salas",
-    "path":"folders/Salas.yy",
+    "name":"5. Final",
+    "path":"folders/Salas/5. Final.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

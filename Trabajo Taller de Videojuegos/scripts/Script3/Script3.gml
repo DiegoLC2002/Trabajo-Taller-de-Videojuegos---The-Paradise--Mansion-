@@ -1,4 +1,4 @@
-/*
+  /*
  * Esta función dividirá un texto en un array utilizando un ancho y una
  * altura como parametros. Puede ser utilizado para dividir un texto en 
  * multiples páginas en una caja de texto en un juego.

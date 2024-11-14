@@ -2,36 +2,19 @@
 // Puede escribir su código en este editor
 // Draw Event
 draw_self();
-
 var target_alpha = 0;
-if (distance_to_object(obj_player) < 25) {
+if (distance_to_object(obj_player) < 200) {
     target_alpha = 1;
-
 }
 
 var shake_x = random_range(-shake_amount, shake_amount);
 var shake_y = random_range(-shake_amount, shake_amount);
-
-
 // Suavizar la transición del alpha
-alpha_text = lerp(alpha_text, target_alpha, 0.1); // 0.1 es la velocidad del fade, ajústalo si quieres más rápido/lento
-
+alpha_text = lerp(alpha_text, target_alpha, 0.025); // 0.1 es la velocidad del fade, ajústalo si quieres más rápido/lento
 if (alpha_text > 0.05) { // Solo dibujamos si hay algo visible
     // Variables para el texto
 	
-	if (room == Room2_Hall)
-	{
-		var text = "Caspi: OYEE!!... me pareces familiar... \nsolo que no recuerdo en donde...  "
-	}
-	if (room == Room5_Kitchen) { var text = "Caspi: Siempre me ha dado escalofrio \nla cocina... Te recomiendo ir con cuidado..."}
-	if (room == Room6_SecondFloor) 
-	{ 
-		if (global.contador_llaves >= 0 && global.contador_llaves < 4){var text = "Para acceder a la oficina, necesitas\nlas llaves que estan en las habitaciones" ;}	
-		if (global.contador_llaves >= 4 && global.contador_llaves < 6){var text = "Ya llevas algunas llaves, ahora solo ten cuidado de no\n MORIR!!" ;}	
-		if (global.contador_llaves == 6){var text = "Solo te falta 1, Rapido!!!" ;}	
-		if (global.contador_llaves >= 7){var text = "Ya puedes entrar!! " ;}	
-	}
-	
+	var text = texto_sala;
     var padding = 6;
     var base_alpha = 0.8;
     
@@ -100,3 +83,31 @@ if (alpha_text > 0.05) { // Solo dibujamos si hay algo visible
     draw_set_font(-1);
 	
 }
+
+var dist = point_distance(x, y, obj_player.x, obj_player.y);
+var target_alpha;
+var max_distance = 200; // Distancia máxima donde se ve el efecto
+var min_distance = 50;  // Distancia donde el efecto es máximo
+if (dist <= min_distance) {
+    effect_strength = 1; // Efecto al máximo
+}
+else if (dist >= max_distance) {
+    effect_strength = 0; // Sin efecto
+}
+else {
+    // Calcula la intensidad basada en la distancia
+    effect_strength = 1 - ((dist - min_distance) / (max_distance - min_distance));
+}
+if (dist <= fade_distance) {
+    // Calcula la opacidad basada en la distancia
+    // Cuando más cerca esté el jugador, más visible será
+    target_alpha = 1 - (dist / fade_distance);
+	
+} else {
+    // Si está fuera del rango, debe ser invisible
+    target_alpha = 0;
+}
+// Suaviza la transición de la opacidad
+alpha_text = lerp(alpha_text, target_alpha, 0.025);
+// Asegura que el valor de alpha esté entre 0 y 1
+alpha_text = clamp(alpha_text, 0, 1);
