@@ -1,8 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-
-
 if room == Room1_Outside
 {
 	set_song_ingame( Outside, 60, 60);	

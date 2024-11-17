@@ -6,6 +6,7 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_38567C24","path":"rooms/Room3_Library/Room3_Library.yy",},
     {"name":"inst_756346","path":"rooms/Room3_Library/Room3_Library.yy",},
     {"name":"inst_469D68E5","path":"rooms/Room3_Library/Room3_Library.yy",},
     {"name":"inst_6E5D76A7","path":"rooms/Room3_Library/Room3_Library.yy",},
@@ -117,6 +118,7 @@
     {"name":"inst_50735F11","path":"rooms/Room3_Library/Room3_Library.yy",},
     {"name":"inst_1FD79889","path":"rooms/Room3_Library/Room3_Library.yy",},
     {"name":"inst_2076CD10","path":"rooms/Room3_Library/Room3_Library.yy",},
+    {"name":"inst_243B5C33","path":"rooms/Room3_Library/Room3_Library.yy",},
     {"name":"inst_1A5B9421","path":"rooms/Room3_Library/Room3_Library.yy",},
   ],
   "isDnd":false,
@@ -130,6 +132,7 @@
         {"name":"g_MaskTexture","type":2,"value":"_filter_mask_sprite",},
       ],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"","%Name":"inst_38567C24","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_38567C24","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":768.0,},
         {"$GMRInstance":"","%Name":"inst_756346","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_756346","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":768.0,},
         {"$GMRInstance":"","%Name":"inst_469D68E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_469D68E5","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":704.0,},
         {"$GMRInstance":"","%Name":"inst_6E5D76A7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E5D76A7","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":704.0,},
@@ -240,6 +243,7 @@
         {"$GMRInstance":"","%Name":"inst_5A3BC33B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A3BC33B","objectId":{"name":"obj_bookpage","path":"objects/obj_bookpage/obj_bookpage.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":352.0,},
         {"$GMRInstance":"","%Name":"inst_50735F11","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50735F11","objectId":{"name":"obj_bookpage","path":"objects/obj_bookpage/obj_bookpage.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":480.0,},
         {"$GMRInstance":"","%Name":"inst_1FD79889","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1FD79889","objectId":{"name":"obj_key_office","path":"objects/obj_key_office/obj_key_office.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":352.0,},
+        {"$GMRInstance":"","%Name":"inst_243B5C33","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_243B5C33","objectId":{"name":"obj_respawn","path":"objects/obj_respawn/obj_respawn.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":608.0,},
         {"$GMRInstance":"","%Name":"inst_1A5B9421","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A5B9421","objectId":{"name":"obj_gaspi","path":"objects/obj_gaspi/obj_gaspi.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":544.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
@@ -475,8 +479,8 @@
   ],
   "name":"Room3_Library",
   "parent":{
-    "name":"Habitaciones",
-    "path":"folders/Salas/3. Primer Piso/Habitaciones.yy",
+    "name":"Puzzles",
+    "path":"folders/Salas/3. Primer Piso/Puzzles.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -6,6 +6,7 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_38567C24_1","path":"rooms/Room4_Bathom/Room4_Bathom.yy",},
     {"name":"inst_3877138D","path":"rooms/Room4_Bathom/Room4_Bathom.yy",},
     {"name":"inst_3EF6A861","path":"rooms/Room4_Bathom/Room4_Bathom.yy",},
     {"name":"inst_21FD00B","path":"rooms/Room4_Bathom/Room4_Bathom.yy",},
@@ -119,6 +120,7 @@
     {"name":"inst_18545BB9","path":"rooms/Room4_Bathom/Room4_Bathom.yy",},
     {"name":"inst_52B946BF","path":"rooms/Room4_Bathom/Room4_Bathom.yy",},
     {"name":"inst_322ED357","path":"rooms/Room4_Bathom/Room4_Bathom.yy",},
+    {"name":"inst_20CCC159","path":"rooms/Room4_Bathom/Room4_Bathom.yy",},
     {"name":"inst_79887516","path":"rooms/Room4_Bathom/Room4_Bathom.yy",},
   ],
   "isDnd":false,
@@ -132,6 +134,7 @@
         {"name":"g_MaskTexture","type":2,"value":"_filter_mask_sprite",},
       ],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"","%Name":"inst_38567C24_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_38567C24_1","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":3.0,"x":32.0,"y":320.0,},
         {"$GMRInstance":"","%Name":"inst_3877138D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3877138D","objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":288.0,},
         {"$GMRInstance":"","%Name":"inst_3EF6A861","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3EF6A861","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":320.0,},
         {"$GMRInstance":"","%Name":"inst_21FD00B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_21FD00B","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":448.0,},
@@ -244,6 +247,7 @@
         {"$GMRInstance":"","%Name":"inst_40004F17","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_40004F17","objectId":{"name":"obj_soko_floor_3","path":"objects/obj_soko_floor_3/obj_soko_floor_3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":384.0,},
         {"$GMRInstance":"","%Name":"inst_18545BB9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18545BB9","objectId":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":448.0,},
         {"$GMRInstance":"","%Name":"inst_52B946BF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_52B946BF","objectId":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":192.0,},
+        {"$GMRInstance":"","%Name":"inst_20CCC159","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_20CCC159","objectId":{"name":"obj_respawn","path":"objects/obj_respawn/obj_respawn.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":384.0,},
         {"$GMRInstance":"","%Name":"inst_79887516","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_79887516","objectId":{"name":"obj_gaspi","path":"objects/obj_gaspi/obj_gaspi.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":143.0,"y":229.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
@@ -457,8 +461,8 @@
   ],
   "name":"Room4_Bathom",
   "parent":{
-    "name":"Habitaciones",
-    "path":"folders/Salas/3. Primer Piso/Habitaciones.yy",
+    "name":"Puzzles",
+    "path":"folders/Salas/3. Primer Piso/Puzzles.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
