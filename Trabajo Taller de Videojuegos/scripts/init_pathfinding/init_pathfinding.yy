@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"init_pathfinding",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"init_pathfinding",
+  "parent":{
+    "name":"Enemigo",
+    "path":"folders/Scripts/Enemigo.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

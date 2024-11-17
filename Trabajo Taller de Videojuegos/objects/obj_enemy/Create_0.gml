@@ -8,6 +8,31 @@ vel_movimiento = 1.25;
 
 // En Create Event:
 effect_active = false;
+// En Create Event:
+// Variables base
+last_known_x = x;
+last_known_y = y;
+chase_timer = 0;
+chase_duration = 60;
+state = "idle";
+search_timer = 0;
+search_duration = 60;
+vel_movimiento = 1.5;
+effect_active = false;
+
+// Variables de patrullaje mejoradas
+patrol_points = [];
+current_patrol_point = 0;
+patrol_wait_time = 0;
+patrol_wait_duration = 20;
+patrol_range = 128; // Aumentado para más amplitud
+patrol_min_distance = 64; // Distancia mínima entre puntos
+initial_x = x; // Guardar posición inicial
+initial_y = y;
+
+
+
+create_patrol_points();
  
 
 /*

@@ -11,8 +11,8 @@
   "name":"obj_door",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_collisions",
-    "path":"folders/Objetos/Objetos Referencias/obj_collisions.yy",
+    "name":"Objetos Referencias",
+    "path":"folders/Objetos/Objetos Referencias.yy",
   },
   "parentObjectId":null,
   "persistent":false,

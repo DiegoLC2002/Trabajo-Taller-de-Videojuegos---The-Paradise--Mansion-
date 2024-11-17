@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"is_stuck",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"is_stuck",
+  "parent":{
+    "name":"Enemigo",
+    "path":"folders/Scripts/Enemigo.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

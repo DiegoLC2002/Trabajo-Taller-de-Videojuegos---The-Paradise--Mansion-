@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"smart_chase_player",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"smart_chase_player",
+  "parent":{
+    "name":"Enemigo",
+    "path":"folders/Scripts/Enemigo.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
