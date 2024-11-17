@@ -7,7 +7,7 @@ checkpoint_valido = false; // Indica si el checkpoint es válido para teletransp
 checkpoint_x = noone;      // Coordenada X inicial para el checkpoint
 checkpoint_y = noone; 
 
-vel_movimiento = 1.6;
+vel_movimiento = 1.3;
 vel_correr = .7;
 
 global.contador_llaves = 0;
@@ -24,4 +24,8 @@ if (room == Room0_Menu || room == Room12_WhiteRoom || room == Room16_Final) && i
 	instance_destroy();
 	
 }	
+
+#region test
+
+#endregion
 

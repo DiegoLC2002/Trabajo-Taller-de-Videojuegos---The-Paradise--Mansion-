@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"move_avoiding_walls",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"move_avoiding_walls",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

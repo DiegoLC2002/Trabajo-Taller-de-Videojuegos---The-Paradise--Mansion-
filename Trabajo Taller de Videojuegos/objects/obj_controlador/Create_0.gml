@@ -1,6 +1,21 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
+// En un objeto controlador (obj_game_controller) - Create Event
+// O en el primer room del juego
 
+// Crear el grid
+var cell_width = 64;  // Tamaño de cada celda
+var cell_height = 64;
+
+// Calcular cuántas celdas necesitamos
+var h_cells = room_width div cell_width;
+var v_cells = room_height div cell_height;
+
+// Crear el grid
+global.grid = mp_grid_create(0, 0, h_cells, v_cells, cell_width, cell_height);
+
+// Añadir las paredes/obstáculos al grid
+mp_grid_add_instances(global.grid, obj_collision, true);
 
 
 objective_text = "";

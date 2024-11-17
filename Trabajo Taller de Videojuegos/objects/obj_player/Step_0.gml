@@ -2,6 +2,7 @@ global.player_last_position_x = x;
 global.player_last_position_y = y;
 
 #region Movimiento Player
+
 // Evento Step
 var btn_derecha = keyboard_check(vk_right);
 var btn_izquierda = keyboard_check(vk_left);
@@ -88,7 +89,10 @@ if(se_movio) {
 }
 
 
+
 #endregion
+
+
 
 if (is_dead && usar_checkpoint && checkpoint_valido) {
     // Teletransporta al checkpoint

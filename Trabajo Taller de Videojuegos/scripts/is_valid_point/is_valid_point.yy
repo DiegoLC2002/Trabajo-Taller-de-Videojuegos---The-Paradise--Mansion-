@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"is_valid_point",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"is_valid_point",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
