@@ -1,6 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-
+global.sala_anterior = noone;
 alpha_text = 0; 
 
 image_alpha = 0; // Comienza invisible

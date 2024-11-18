@@ -5,7 +5,7 @@ draw_self();
 var target_alpha = 0;
 if (distance_to_object(obj_player) < 200) {
     target_alpha = 1;
-}
+} 
 
 var shake_x = random_range(-shake_amount, shake_amount);
 var shake_y = random_range(-shake_amount, shake_amount);

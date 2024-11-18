@@ -18,9 +18,9 @@ if(btn_derecha) {
         se_movio = true;
         ultima_direccion = "derecha";
     }
-    if(btn_correr) {
-        x += vel_movimiento * vel_correr;
-    }
+	    if(btn_correr && puede_sprint && sprint_energia_actual > energia_minima_requerida) {
+	        x += vel_movimiento * vel_correr;
+	    }
 }
 else if(btn_izquierda) {
     if(place_free(x - vel_movimiento, y)) {
@@ -28,7 +28,7 @@ else if(btn_izquierda) {
         se_movio = true;
         ultima_direccion = "izquierda";
     }
-    if(btn_correr) {
+    if(btn_correr && puede_sprint && sprint_energia_actual > energia_minima_requerida) {
         x -= vel_movimiento * vel_correr;
     }
 }
@@ -38,7 +38,7 @@ else if(btn_arriba) {
         se_movio = true;
         ultima_direccion = "arriba";
     }
-    if(btn_correr) {
+    if(btn_correr && puede_sprint && sprint_energia_actual > energia_minima_requerida) {
         y -= vel_movimiento * vel_correr;
     }
 }
@@ -48,10 +48,41 @@ else if(btn_abajo) {
         se_movio = true;
         ultima_direccion = "abajo";
     }
-    if(btn_correr) {
+    if(btn_correr && puede_sprint && sprint_energia_actual > energia_minima_requerida) {
         y += vel_movimiento * vel_correr;
     }
 }
+#region Sistema Sprint
+if (btn_correr && puede_sprint && sprint_energia_actual > energia_minima_requerida && !sprint_agotado && se_movio) {
+    // Consumir energía mientras corre
+    sprint_energia_actual -= sprint_consumo;
+    
+    // Si la energía llega a 0
+    if (sprint_energia_actual <= 0) {
+        sprint_energia_actual = 0;
+        puede_sprint = false;
+        sprint_agotado = true;  // Marca que se agotó completamente
+    }
+} else {
+    // Recargar energía cuando no está corriendo
+    if (sprint_energia_actual < sprint_energia_maxima) {
+        sprint_energia_actual += sprint_recarga;
+        
+        // Solo permite sprint de nuevo cuando la energía está completamente llena
+        if (sprint_energia_actual >= sprint_energia_maxima) {
+            puede_sprint = true;
+            sprint_agotado = false;  // Reset la bandera de agotado
+        }
+    }
+    
+    // Limitar la energía al máximo
+    if (sprint_energia_actual > sprint_energia_maxima) {
+        sprint_energia_actual = sprint_energia_maxima;
+    }
+}
+#endregion
+
+
 
 // Cambia el sprite al final del Step, basado en movimiento o idle
 if(se_movio) {

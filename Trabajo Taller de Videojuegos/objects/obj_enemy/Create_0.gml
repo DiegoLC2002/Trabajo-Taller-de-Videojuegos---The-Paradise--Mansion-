@@ -2,10 +2,6 @@
 var mpersecusion;
 
 
-
-
-
-
 // En Create Event:
 effect_active = false;
 // En Create Event:

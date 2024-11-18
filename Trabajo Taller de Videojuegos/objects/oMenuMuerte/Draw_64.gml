@@ -20,14 +20,14 @@ if (text_visible) {
         draw_set_color(c_red);
         draw_text_transformed(display_get_gui_width()/2 + off_x + 2, 
                             display_get_gui_height()/2 + off_y + 2, 
-                            "¡TE HAN CAPTURADO!",
+                            "TE HAN CAPTURADO!",
                             scale, scale, 0);
         
         // Texto principal
         draw_set_color(c_white);
         draw_text_transformed(display_get_gui_width()/2 + off_x, 
                             display_get_gui_height()/2 + off_y, 
-                            "¡TE HAN CAPTURADO!",
+                            "TE HAN CAPTURADO!",
                             scale, scale, 0);
     }
     

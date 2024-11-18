@@ -1,3 +1,4 @@
-if (room_previous(Room1_Outside)) {texto_sala = "???: NO TE ASUSTES SOY BUENO LO PROMETO!!...\nNo te asustes me presento";}
-text1 = "Booo..."
-text2 = "Que susto !!"
+if (global.sala_anterior == Room5_Kitchen){texto_sala = "Hola perkin qlo, te pusiste\nla zapatillas oh no?"}
+else {
+texto_sala = "";
+}
