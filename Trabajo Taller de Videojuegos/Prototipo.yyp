@@ -145,6 +145,7 @@
     {"id":{"name":"move_avoiding_walls","path":"scripts/move_avoiding_walls/move_avoiding_walls.yy",},},
     {"id":{"name":"scr_ChangeSpr","path":"scripts/scr_ChangeSpr/scr_ChangeSpr.yy",},},
     {"id":{"name":"scr_MoveTo","path":"scripts/scr_MoveTo/scr_MoveTo.yy",},},
+    {"id":{"name":"Script14","path":"scripts/Script14/Script14.yy",},},
     {"id":{"name":"Script3","path":"scripts/Script3/Script3.yy",},},
     {"id":{"name":"Script4","path":"scripts/Script4/Script4.yy",},},
     {"id":{"name":"ScrMusicFunction","path":"scripts/ScrMusicFunction/ScrMusicFunction.yy",},},

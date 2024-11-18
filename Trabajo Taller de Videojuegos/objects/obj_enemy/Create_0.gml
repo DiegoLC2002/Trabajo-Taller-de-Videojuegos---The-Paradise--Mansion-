@@ -2,7 +2,7 @@
 var mpersecusion;
 
 
-vel_movimiento = 1.25;
+
 
 
 
@@ -30,6 +30,13 @@ patrol_min_distance = 64; // Distancia mínima entre puntos
 initial_x = x; // Guardar posición inicial
 initial_y = y;
 
+avoid_timer = 0;
+avoid_duration = 30; // Frames to try alternative navigation
+avoid_direction = 0;
+stuck_threshold = 5;
+
+navigation_cooldown = 0;
+navigation_state = "normal";
 
 
 create_patrol_points();

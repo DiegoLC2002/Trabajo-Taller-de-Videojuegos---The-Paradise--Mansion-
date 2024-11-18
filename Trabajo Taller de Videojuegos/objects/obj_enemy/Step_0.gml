@@ -17,6 +17,31 @@ if distance_to_object(obj_player) < 156 {
     
     if point_direction(x,y,obj_player.x,obj_player.y) > 0 && point_direction(x,y,obj_player.x,obj_player.y) < 360 {
         move_towards_point(obj_player.x,obj_player.y,vel_movimiento + .25);
+		
+		if (place_meeting(x + hspeed, y + vspeed, obj_collision)) {
+        // Check if we're stuck
+        if (abs(hspeed) < stuck_threshold && abs(vspeed) < stuck_threshold) {
+            // Try to find an alternative path
+            if (create_avoidance_path()) {
+                // Successfully found an alternative route
+                move_towards_point(
+                    x + lengthdir_x(vel_movimiento * 2, avoid_direction), 
+                    y + lengthdir_y(vel_movimiento * 2, avoid_direction), 
+                    vel_movimiento + 0.25);
+            }
+        }
+    }
+    
+    // If in avoidance mode, continue alternative path
+    if (avoid_timer > 0) {
+        move_towards_point(
+            x + lengthdir_x(vel_movimiento * 2, avoid_direction), 
+            y + lengthdir_y(vel_movimiento * 2, avoid_direction), 
+            vel_movimiento + 0.25
+        );
+        avoid_timer--;
+    }
+}
         
         if (obj_player.y < y) { obj_player.depth = depth + 1; }
         if (obj_player.y > y) { obj_player.depth = depth - 1; }
@@ -34,7 +59,7 @@ if distance_to_object(obj_player) < 156 {
         if point_direction(x,y,obj_player.x,obj_player.y) > 225 && point_direction(x,y,obj_player.x,obj_player.y) < 315 {
             sprite_index = spr_enemy_down;
         }
-    }
+    
 } else {
     if effect_active {
         layer_set_visible("Effect_2", false);
