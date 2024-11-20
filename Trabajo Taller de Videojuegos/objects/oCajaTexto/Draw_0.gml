@@ -1,7 +1,8 @@
+
 tecla_siguiente = keyboard_check_pressed(vk_enter)
 
-cajatexto_x = camera_get_view_x(view_camera[0]);
-cajatexto_y = camera_get_view_y(view_camera[0]) + 172;
+cajatexto_x = camera_get_view_x(view_camera[0] );
+cajatexto_y = camera_get_view_y(view_camera[0]) + 220;
 
 
 if setup == false
@@ -20,7 +21,7 @@ if setup == false
 			
 		largo_texto[p] = string_length(texto[p])
 		
-		texto_x_offset[p] = 144;
+		texto_x_offset[p] = 150;
 			
 		}
 	}

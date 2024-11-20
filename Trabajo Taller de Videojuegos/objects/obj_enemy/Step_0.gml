@@ -7,6 +7,7 @@
 // Este código va en el evento Step
 if distance_to_object(obj_player) < 156 {
     // Tu código existente para persecución
+	
     if !effect_active {
         layer_set_visible("Effect_2", true);
         effect_active = true;
@@ -15,10 +16,16 @@ if distance_to_object(obj_player) < 156 {
     state = "chasing";
     last_known_x = obj_player.x;
     last_known_y = obj_player.y;
-    chase_timer = 0;
+    chase_timer++;
+    
+    // Aumentar velocidad después de 10 segundos (asumiendo 60 fps)
+    var speed_multiplier = 1;
+    if (chase_timer > 300) {  // 10 segundos * 60 fps = 600 frames
+        speed_multiplier = 1.2;  // Puedes ajustar este valor
+    }
     
     if point_direction(x,y,obj_player.x,obj_player.y) > 0 && point_direction(x,y,obj_player.x,obj_player.y) < 360 {
-        move_towards_point(obj_player.x,obj_player.y,vel_movimiento + .25);
+        move_towards_point(obj_player.x,obj_player.y, (vel_movimiento + .25) * speed_multiplier);
 		
 		if (place_meeting(x + hspeed, y + vspeed, obj_collision)) {
         // Check if we're stuck
@@ -27,23 +34,23 @@ if distance_to_object(obj_player) < 156 {
             if (create_avoidance_path()) {
                 // Successfully found an alternative route
                 move_towards_point(
-                    x + lengthdir_x(vel_movimiento * 2, avoid_direction), 
-                    y + lengthdir_y(vel_movimiento * 2, avoid_direction), 
-                    vel_movimiento + 0.25);
-            }
-        }
-    }
+                    x + lengthdir_x(vel_movimiento * 2 * speed_multiplier, avoid_direction), 
+                    y + lengthdir_y(vel_movimiento * 2 * speed_multiplier, avoid_direction), 
+                    (vel_movimiento + 0.25) * speed_multiplier);
+				}
+			}
+		}
     
-    // If in avoidance mode, continue alternative path
-    if (avoid_timer > 0) {
-        move_towards_point(
-            x + lengthdir_x(vel_movimiento * 2, avoid_direction), 
-            y + lengthdir_y(vel_movimiento * 2, avoid_direction), 
-            vel_movimiento + 0.25
-        );
-        avoid_timer--;
-    }
-}
+	    // If in avoidance mode, continue alternative path
+	    if (avoid_timer > 0) {
+	        move_towards_point(
+	            x + lengthdir_x(vel_movimiento * 2 * speed_multiplier, avoid_direction), 
+	            y + lengthdir_y(vel_movimiento * 2 * speed_multiplier, avoid_direction), 
+	            (vel_movimiento + 0.25) * speed_multiplier);
+	        avoid_timer--;
+	    }
+	
+	}
         
         if (obj_player.y < y) { obj_player.depth = depth + 1; }
         if (obj_player.y > y) { obj_player.depth = depth - 1; }
@@ -82,6 +89,7 @@ if distance_to_object(obj_player) < 156 {
             
         case "searching":
             if search_timer < search_duration {
+				
                 image_alpha = 0.7 + sin(search_timer * 0.2) * 0.3;
                 search_timer++;
             } else {

@@ -1,6 +1,6 @@
 // En el evento Draw GUI del personaje
 if (!instance_exists(oJumpScare) && !instance_exists(oMenuMuerte) && !is_dead) {  // Añadimos !is_dead a la condición
-    var barra_x = 10;
+    var barra_x = 530;
     var barra_y = display_get_gui_height()-40;
     var barra_ancho = 90;
     var barra_alto = 15;

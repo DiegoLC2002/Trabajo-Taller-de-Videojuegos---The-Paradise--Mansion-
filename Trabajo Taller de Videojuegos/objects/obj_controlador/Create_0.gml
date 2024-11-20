@@ -1,6 +1,8 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-
+// Variables globales
+global.dialog_active = false;
+global.current_dialog = noone;
 
 
 objective_text = "";

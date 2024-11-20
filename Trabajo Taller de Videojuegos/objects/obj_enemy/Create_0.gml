@@ -1,7 +1,9 @@
 
 var mpersecusion;
 
-
+// En el Create event
+spawn_x = x;
+spawn_y = y;
 // En Create Event:
 effect_active = false;
 // En Create Event:
