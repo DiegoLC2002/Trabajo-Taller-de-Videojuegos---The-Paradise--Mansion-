@@ -3,7 +3,7 @@
 // Variables globales
 global.dialog_active = false;
 global.current_dialog = noone;
-
+global.keys_collected = [];
 
 objective_text = "";
 box_width = 200;

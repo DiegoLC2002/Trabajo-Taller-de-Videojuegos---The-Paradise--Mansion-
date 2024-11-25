@@ -5,7 +5,7 @@
 
 
 // Este código va en el evento Step
-if distance_to_object(obj_player) < 156 {
+if (distance_to_object(obj_player) < 156 && (!point_direction(x,y,obj_collision.x,obj_collision.y) > 0 && !point_direction(x,y,obj_collision.x,obj_collision.y) > 359)) {
     // Tu código existente para persecución
 	
     if !effect_active {

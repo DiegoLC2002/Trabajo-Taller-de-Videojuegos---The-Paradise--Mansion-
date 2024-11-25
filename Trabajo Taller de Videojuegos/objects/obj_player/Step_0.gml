@@ -88,32 +88,34 @@ if (btn_correr && puede_sprint && sprint_energia_actual > energia_minima_requeri
 if(se_movio) {
     switch(ultima_direccion) {
         case "derecha":
-            sprite_index = spr_player_right;  // Sprite de movimiento a la derecha
-            break;
+            sprite_index = spr_player_walk_right;  // Sprite de movimiento a la derecha
+            if (btn_correr){sprite_index = spr_player_run_right; }
+			break;
         case "izquierda":
-            sprite_index = spr_player_left;   // Sprite de movimiento a la izquierda
+            sprite_index = spr_player_walk_left;   // Sprite de movimiento a la izquierda
             break;
         case "arriba":
-            sprite_index = spr_player_up;     // Sprite de movimiento hacia arriba
+            sprite_index = spr_player_walk_up;     // Sprite de movimiento hacia arriba
+			if (btn_correr){sprite_index = spr_player_run_up; }
             break;
         case "abajo":
-            sprite_index = spr_player_down;   // Sprite de movimiento hacia abajo
+            sprite_index = spr_player_walk_down;   // Sprite de movimiento hacia abajo
             break;
     }
 } else {
     // Cuando no se mueve, cambia al sprite idle según la última dirección
     switch(ultima_direccion) {
         case "derecha":
-            sprite_index = spr_player_right_idle;
+            sprite_index = spr_player_idle_right;
             break;
         case "izquierda":
-            sprite_index = spr_player_left_idle;
+            sprite_index = spr_player_idle_left;
             break;
         case "arriba":
-            sprite_index = spr_player_up_idle;
+            sprite_index = spr_player_idle_up;
             break;
         case "abajo":
-            sprite_index = spr_player_down_idle;
+            sprite_index = spr_player_idle_down;
             break;
     }
 }
