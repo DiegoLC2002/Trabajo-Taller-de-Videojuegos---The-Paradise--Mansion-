@@ -20,7 +20,7 @@ checkpoint_x = noone;      // Coordenada X inicial para el checkpoint
 checkpoint_y = noone; 
 
 vel_movimiento = 1.6;
-vel_correr = .7;
+vel_correr = 2.7;
 
 global.contador_llaves = 0;
 global.n_cajas = 0;

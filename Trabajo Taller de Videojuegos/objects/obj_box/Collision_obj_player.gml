@@ -5,7 +5,7 @@ if(keyboard_check(vk_right))
     if (place_meeting(x-0,y+0,obj_player))
     {
         // Verifica si hay colisión con la pared en la siguiente posición
-        if (!place_meeting(x+3,y,obj_collision))
+        if (!place_meeting(x+ vel_movimiento * vel_correr,y,obj_collision))
         {
             x+=3;
         }
@@ -24,7 +24,7 @@ if(keyboard_check(vk_left))
 {
     if (place_meeting(x-0,y+0,obj_player))
     {
-        if (!place_meeting(x-3,y,obj_collision))
+        if (!place_meeting(x-vel_movimiento * vel_correr,y,obj_collision))
         {
             x-=3;
         }
@@ -42,7 +42,7 @@ if(keyboard_check(vk_down))
 {
     if (place_meeting(x-0,y+0,obj_player))
     {
-        if (!place_meeting(x,y+3,obj_collision))
+        if (!place_meeting(x,y+vel_movimiento * vel_correr,obj_collision))
         {
             y+=3;
         }
@@ -60,7 +60,7 @@ if(keyboard_check(vk_up))
 {
     if (place_meeting(x-0,y+0,obj_player))
     {
-        if (!place_meeting(x,y-3,obj_collision))
+        if (!place_meeting(x,y-vel_movimiento * vel_correr,obj_collision))
         {
             y-=3;
         }

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"is_stuck",
   "isCompatibility":false,
   "isDnD":false,

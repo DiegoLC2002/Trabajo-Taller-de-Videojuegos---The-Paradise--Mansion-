@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"shader_start",
   "isCompatibility":false,
   "isDnD":false,
