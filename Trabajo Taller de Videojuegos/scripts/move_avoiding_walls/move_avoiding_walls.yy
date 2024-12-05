@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"move_avoiding_walls",
   "isCompatibility":false,
   "isDnD":false,

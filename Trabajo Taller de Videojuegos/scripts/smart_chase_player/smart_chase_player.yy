@@ -1,5 +1,5 @@
 {
-  "$GMScript":"v1",
+  "$GMScript":"",
   "%Name":"smart_chase_player",
   "isCompatibility":false,
   "isDnD":false,
