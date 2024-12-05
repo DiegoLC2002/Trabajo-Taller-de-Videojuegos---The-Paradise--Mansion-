@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"obj_soko_floor_2",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_soko_floor_2",
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_puzzle_floor_2",
+    "path":"sprites/spr_puzzle_floor_2/spr_puzzle_floor_2.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
