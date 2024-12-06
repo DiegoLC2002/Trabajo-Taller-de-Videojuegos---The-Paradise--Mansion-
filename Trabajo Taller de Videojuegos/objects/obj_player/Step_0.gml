@@ -92,7 +92,7 @@ if (btn_derecha) {
     ultima_direccion = "abajo";
 }
 
-
+//33,46
 
 
 

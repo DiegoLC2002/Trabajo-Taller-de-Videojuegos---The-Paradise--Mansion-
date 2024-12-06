@@ -2,7 +2,7 @@
 // Variables para el sprint
 sprint_energia_maxima = 100;        // Energía máxima
 sprint_energia_actual = 100;        // Energía actual
-sprint_velocidad = 8;               // Velocidad durante el sprint
+sprint_velocidad = 1.5;               // Velocidad durante el sprint
 velocidad_normal = 3;               // Velocidad normal
 puede_sprint = true;                // Si puede usar el sprint
 sprint_consumo = .5;                 // Cuánta energía consume por step
@@ -20,7 +20,7 @@ checkpoint_x = noone;      // Coordenada X inicial para el checkpoint
 checkpoint_y = noone; 
 
 vel_movimiento = 1.6;
-vel_correr = 2.7;
+vel_correr = 1.4;
 
 global.contador_llaves = 0;
 global.n_cajas = 0;
