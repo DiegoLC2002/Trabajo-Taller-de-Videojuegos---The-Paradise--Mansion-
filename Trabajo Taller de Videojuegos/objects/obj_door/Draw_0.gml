@@ -1,3 +1,4 @@
+
 // Draw Event
 draw_self();
 
@@ -67,3 +68,5 @@ if (alpha_text > 0.05) { // Solo dibujamos si hay algo visible
     draw_set_valign(fa_top);
     draw_set_font(-1);
 }
+
+
