@@ -1,3 +1,3 @@
 targetRoom = Room3_Library;
-targetX = 606;
-targetY = 731;
+targetX = 641;
+targetY = 772;

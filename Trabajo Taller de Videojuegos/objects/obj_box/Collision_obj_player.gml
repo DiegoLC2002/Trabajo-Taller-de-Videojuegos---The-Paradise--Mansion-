@@ -1,5 +1,6 @@
 /// @description Movimiento de caja con detección de colisiones
 // Puede escribir su código en este editor
+
 if(keyboard_check(vk_right))
 {
     if (place_meeting(x-0,y+0,obj_player))
@@ -58,7 +59,7 @@ if(keyboard_check(vk_down))
 
 if(keyboard_check(vk_up))
 {
-    if (place_meeting(x-0,y+0,obj_player))
+    if(place_meeting(x-0,y+0,obj_player))
     {
         if (!place_meeting(x,y-vel_movimiento * vel_correr,obj_collision))
         {

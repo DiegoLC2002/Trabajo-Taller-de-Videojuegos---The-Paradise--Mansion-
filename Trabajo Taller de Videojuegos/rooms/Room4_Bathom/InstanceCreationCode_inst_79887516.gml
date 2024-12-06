@@ -1,2 +1,1 @@
-text1 = "Ya di vueltas por todo alrededor, aqui hay 2 llaves"
-text2 = "NO TOQUES NADA... no hacen aseo"
+texto_sala = "Todo aqui esta muy sucio, incluyendo esas 2 llaves de por ahi... \nQue asco";

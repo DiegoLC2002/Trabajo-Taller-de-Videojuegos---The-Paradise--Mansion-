@@ -1,6 +1,6 @@
 global.player_last_position_x = x;
 global.player_last_position_y = y;
-/*
+
 #region Movimiento Player
 // Evento Step
 var btn_derecha = keyboard_check(vk_right);
@@ -12,6 +12,7 @@ var btn_correr = keyboard_check(vk_space);
 // Verifica si el personaje se movió
 var se_movio = false;
 
+/*
 if(btn_derecha) {
     if(place_free(x + vel_movimiento * vel_correr , y)) {
         x += vel_movimiento;
@@ -53,6 +54,51 @@ else if(btn_abajo) {
         y += vel_movimiento * vel_correr;
     }
 }
+*/
+
+/// Función para mover con colisión continua
+function move_with_collision(dir_x, dir_y, velocidad) {
+    var distancia = velocidad;
+    while (distancia > 0) {
+        // Avanzar en pasos pequeños para detectar colisiones
+        var paso = min(1, distancia); // Tamaño del paso, máximo 1 pixel
+        if (place_free(x + dir_x * paso, y + dir_y * paso)) {
+            x += dir_x * paso;
+            y += dir_y * paso;
+            distancia -= paso;
+        } else {
+            // Si encuentra una colisión, detener el movimiento
+            break;
+        }
+    }
+}
+
+
+if (btn_derecha) {
+    move_with_collision(1, 0, btn_correr && puede_sprint && sprint_energia_actual > energia_minima_requerida ? vel_movimiento * vel_correr : vel_movimiento);
+    se_movio = true;
+    ultima_direccion = "derecha";
+} else if (btn_izquierda) {
+    move_with_collision(-1, 0, btn_correr && puede_sprint && sprint_energia_actual > energia_minima_requerida ? vel_movimiento * vel_correr : vel_movimiento);
+    se_movio = true;
+    ultima_direccion = "izquierda";
+} else if (btn_arriba) {
+    move_with_collision(0, -1, btn_correr && puede_sprint && sprint_energia_actual > energia_minima_requerida ? vel_movimiento * vel_correr : vel_movimiento);
+    se_movio = true;
+    ultima_direccion = "arriba";
+} else if (btn_abajo) {
+    move_with_collision(0, 1, btn_correr && puede_sprint && sprint_energia_actual > energia_minima_requerida ? vel_movimiento * vel_correr : vel_movimiento);
+    se_movio = true;
+    ultima_direccion = "abajo";
+}
+
+
+
+
+
+#endregion
+
+
 #region Sistema Sprint
 if (btn_correr && puede_sprint && sprint_energia_actual > energia_minima_requerida && !sprint_agotado && se_movio) {
     // Consumir energía mientras corre
@@ -134,6 +180,7 @@ if(se_movio) {
 
 #endregion
 
+
 if (is_dead && usar_checkpoint && checkpoint_valido) {
     // Teletransporta al checkpoint
     x = checkpoint_x;
@@ -144,7 +191,13 @@ if (is_dead && usar_checkpoint && checkpoint_valido) {
     is_dead = false;          
     usar_checkpoint = false; 
 }
-*/
+
+
+
+ 
+
+#region Codigo no usar
+/*
 var btn_derecha = keyboard_check(vk_right);
 var btn_izquierda = keyboard_check(vk_left);
 var btn_arriba = keyboard_check(vk_up);
@@ -229,4 +282,5 @@ if (btn_correr && puede_sprint && sprint_energia_actual > energia_minima_requeri
         sprint_energia_actual = sprint_energia_maxima;
     }
 }
-#endr
+*/
+#endregion

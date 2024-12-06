@@ -14,7 +14,7 @@ if (alpha_text > 0.05) { // Solo dibujamos si hay algo visible
 	
 	var text = "Abrir puerta";
 	if (room == Room1_Outside) { var text = "Presiona E para usar la puerta"; }
-	else if(room == Room11_Office){var text = " 'E' Para comerte las galletas";}
+	else if(room == Room11_Office){ var text = " 'E' Para comerte las galletas";}
 	
     var padding = 6;
     var base_alpha = 0.8;

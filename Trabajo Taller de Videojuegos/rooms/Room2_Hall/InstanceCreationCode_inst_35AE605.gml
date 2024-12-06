@@ -1,3 +1,3 @@
 targetRoom = Room4_Bathom;
-targetX = 95;
-targetY = 378;
+targetX = 103;
+targetY = 383;

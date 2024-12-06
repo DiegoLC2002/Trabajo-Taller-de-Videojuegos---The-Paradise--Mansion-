@@ -1,2 +1,1 @@
-text1 = "Recoje la llave oculta y las notas para salir"
-text2 = "Ten cuidado siento que nos observan..."
+texto_sala = "Recoje la llave y las notas para sal... ¿oiste eso?";

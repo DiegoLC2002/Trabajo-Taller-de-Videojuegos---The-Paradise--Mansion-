@@ -44,7 +44,7 @@
     ],
     "top":0,
   },
-  "origin":1,
+  "origin":4,
   "parent":{
     "name":"spr_Player",
     "path":"folders/Sprites/spr_Player.yy",
@@ -103,7 +103,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":0,
+    "yorigin":32,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
