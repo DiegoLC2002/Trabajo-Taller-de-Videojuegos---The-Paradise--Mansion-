@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"is_valid_point",
   "isCompatibility":false,
   "isDnD":false,
