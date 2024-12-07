@@ -4,7 +4,8 @@ global.sala_anterior = noone;
 alpha_text = 0; 
 
 image_alpha = 0; // Comienza invisible
-fade_distance = 200; // Distancia a la que empieza a aparecer/desaparecer
+fade_distance = 125; // Distancia a la que empieza a aparecer/desaparecer
 
 shake_amount = .6;
 texto_sala = "";
+

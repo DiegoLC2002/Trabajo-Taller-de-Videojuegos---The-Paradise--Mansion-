@@ -8,7 +8,7 @@ if (obj_player.y > y ){ obj_player.depth = depth - 1}
 // En el Step Event del objeto fantasma
 var dist = point_distance(x, y, obj_player.x, obj_player.y);
 var target_alpha;
-var max_distance = 200; // Distancia máxima donde se ve el efecto
+var max_distance = 125; // Distancia máxima donde se ve el efecto
 var min_distance = 50;  // Distancia donde el efecto es máximo
 
 

@@ -3,7 +3,7 @@
 // Draw Event
 draw_self();
 var target_alpha = 0;
-if (distance_to_object(obj_player) < 200) {
+if (distance_to_object(obj_player) < 125) {
     target_alpha = 1;
 } 
 

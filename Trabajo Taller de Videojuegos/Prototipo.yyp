@@ -343,9 +343,9 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room0_Menu","path":"rooms/Room0_Menu/Room0_Menu.yy",},},
     {"roomId":{"name":"Test","path":"rooms/Test/Test.yy",},},
+    {"roomId":{"name":"Room1_Outside","path":"rooms/Room1_Outside/Room1_Outside.yy",},},
     {"roomId":{"name":"Room2_Hall","path":"rooms/Room2_Hall/Room2_Hall.yy",},},
     {"roomId":{"name":"Room01_letter","path":"rooms/Room01_letter/Room01_letter.yy",},},
-    {"roomId":{"name":"Room1_Outside","path":"rooms/Room1_Outside/Room1_Outside.yy",},},
     {"roomId":{"name":"Room10_SecondFloor_Storage","path":"rooms/Room10_SecondFloor_Storage/Room10_SecondFloor_Storage.yy",},},
     {"roomId":{"name":"Room3_Library","path":"rooms/Room3_Library/Room3_Library.yy",},},
     {"roomId":{"name":"Room4_Bathom","path":"rooms/Room4_Bathom/Room4_Bathom.yy",},},
